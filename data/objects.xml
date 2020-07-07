@@ -14025,67 +14025,6 @@
 		<Flag>DamageGarrisoned</Flag>
 		<HPBar>UNSC_Bldg_Health</HPBar>
 	</Object>
-	<Object name="fld_inf_Rhinodillo_01" id="0" dbid="1150">
-		<ObjectClass>Squad</ObjectClass>
-		<Visual>flood\vehicle\Rhinodillo_01\Rhinodillo_01.vis</Visual>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<DisplayNameID>10168</DisplayNameID>
-		<RolloverTextID>10169</RolloverTextID>
-		<MovementType>Land</MovementType>
-		<Velocity>20</Velocity>
-		<Acceleration>26</Acceleration>
-		<TurnRate>540</TurnRate>
-		<Hitpoints>5000</Hitpoints>
-		<AttackGradeDPS>250</AttackGradeDPS>
-		<CombatValue>10</CombatValue>
-		<Pop Type="Unit">2</Pop>
-		<LOS>55</LOS>
-		<Bounty>40</Bounty>
-		<Veterancy Level="1" XP="0" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="0" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<AmmoMax>130</AmmoMax>
-		<AmmoRegenRate>1</AmmoRegenRate>
-		<Tactics>fld_inf_rhinodillo_01.tactics</Tactics>
-		<RepairPoints>25</RepairPoints>
-		<ObstructionRadiusX>4</ObstructionRadiusX>
-		<ObstructionRadiusY>4</ObstructionRadiusY>
-		<ObstructionRadiusZ>4</ObstructionRadiusZ>
-		<PickRadius>4</PickRadius>
-		<PickOffset>3</PickOffset>
-		<PickPriority>Unit</PickPriority>
-		<SelectType>Unit</SelectType>
-		<GotoType>Infantry</GotoType>
-		<SubSelectSort>3000</SubSelectSort>
-		<SelectedRadiusX>1.29999995</SelectedRadiusX>
-		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
-		<Sound Type="Death">play_death_infected_marine</Sound>
-		<Sound Type="Pain">play_tentacle_attack</Sound>
-		<DamageType direction="Full">Flood</DamageType>
-		<DeathReplacement>fld_inf_Rhinodillo_shatterdeath_01</DeathReplacement>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Transportable</ObjectType>
-		<ObjectType>GroundVehicle</ObjectType>
-		<ObjectType>Unit</ObjectType>
-		<ObjectType>Creep</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<ObjectType>Flood</ObjectType>
-		<ObjectType>_Flood</ObjectType>
-		<SurfaceType>floodFlesh</SurfaceType>
-		<RallyPoint>Military</RallyPoint>
-		<Flag>ShatterDeathReplacement</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>DontRotateObstruction</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>HasTrackMask</Flag>
-		<Flag>TargetsFootOfUnit</Flag>
-		<Flag>Obscurable</Flag>
-		<HPBar>UNSC_Health</HPBar>
-	</Object>
 	<Object name="fld_inf_Rhinodillo_shatterdeath_01" id="0" dbid="4273">
 		<ObjectClass>Unit</ObjectClass>
 		<Visual>flood\vehicle\Rhinodillo_01\RhinodilloCryo_01.vis</Visual>

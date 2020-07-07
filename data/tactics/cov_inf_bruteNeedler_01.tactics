@@ -160,7 +160,6 @@
 		<DeflectTimeout>1</DeflectTimeout>
 		<MultiDeflect />
 		<SmallArms />
-		<StartDisabled />
 		<ProtoObject>cov_inf_bruteNeedlerArmor_01</ProtoObject>
 	</Action>
 	<Action>

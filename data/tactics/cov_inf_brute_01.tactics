@@ -282,7 +282,34 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>3</WorkRange>
 	</Action>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<DeflectMaxDmg>214</DeflectMaxDmg>
+		<DeflectTimeout>1</DeflectTimeout>
+		<MultiDeflect />
+		<SmallArms />
+		<ProtoObject>cov_inf_bruteArmor_01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>Deflect_03</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.5</DeflectChanceMin>
+		<DeflectChanceMax>0.5</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+		<StartDisabled />
+		<ProtoObject>cov_inf_bruteArmor_01</ProtoObject>
+	</Action>
 	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<PersistentAction>Deflect_03</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

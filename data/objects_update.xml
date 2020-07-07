@@ -82,6 +82,68 @@
 		</FlashUI>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
+	<Object name="fld_inf_Rhinodillo_01" id="0" dbid="1150">
+		<ObjectClass>Squad</ObjectClass>
+		<Visual>flood\vehicle\Rhinodillo_01\Rhinodillo_01.vis</Visual>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<DisplayNameID>10168</DisplayNameID>
+		<RolloverTextID>10169</RolloverTextID>
+		<MovementType>Land</MovementType>
+		<Velocity>12</Velocity>
+		<Acceleration>13.5</Acceleration>
+		<TurnRate>360</TurnRate>
+		<Hitpoints>17800</Hitpoints>
+		<AttackGradeDPS>250</AttackGradeDPS>
+		<CombatValue>10</CombatValue>
+		<Pop Type="Unit">2</Pop>
+		<LOS>55</LOS>
+		<Bounty>9.25</Bounty>
+		<Veterancy Level="1" XP="20" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
+		<Veterancy Level="2" XP="50" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
+		<Veterancy Level="3" XP="90" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
+		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
+		<AmmoMax>130</AmmoMax>
+		<AmmoRegenRate>1</AmmoRegenRate>
+		<Tactics>fld_inf_rhinodillo_01.tactics</Tactics>
+		<RepairPoints>25</RepairPoints>
+		<ObstructionRadiusX>4</ObstructionRadiusX>
+		<ObstructionRadiusY>4</ObstructionRadiusY>
+		<ObstructionRadiusZ>4</ObstructionRadiusZ>
+		<PickRadius>4</PickRadius>
+		<PickOffset>3</PickOffset>
+		<PickPriority>Unit</PickPriority>
+		<SelectType>Unit</SelectType>
+		<GotoType>Infantry</GotoType>
+		<SubSelectSort>3000</SubSelectSort>
+		<SelectedRadiusX>1.29999995</SelectedRadiusX>
+		<SelectedRadiusZ>1.29999995</SelectedRadiusZ>
+		<Sound Type="Death">play_death_infected_marine</Sound>
+		<Sound Type="Pain">play_tentacle_attack</Sound>
+		<DamageType direction="Full">Flood</DamageType>
+		<DeathReplacement>fld_inf_Rhinodillo_shatterdeath_01</DeathReplacement>
+		<ObjectType>Military</ObjectType>
+		<ObjectType>NonFlying</ObjectType>
+		<ObjectType>Transportable</ObjectType>
+		<ObjectType>GroundVehicle</ObjectType>
+		<ObjectType>Unit</ObjectType>
+		<ObjectType>Creep</ObjectType>
+		<ObjectType>CanCryo</ObjectType>
+		<ObjectType>Flood</ObjectType>
+		<ObjectType>_Flood</ObjectType>
+		<SurfaceType>floodFlesh</SurfaceType>
+		<RallyPoint>Military</RallyPoint>
+		<AbilityCommand>UnscRam</AbilityCommand>
+		<Flag>ShatterDeathReplacement</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DontRotateObstruction</Flag>
+		<Flag>HasHPBar</Flag>
+		<Flag>HasTrackMask</Flag>
+		<Flag>TargetsFootOfUnit</Flag>
+		<Flag>Obscurable</Flag>
+		<HPBar>UNSC_Health</HPBar>
+	</Object>
 	<Object name="unsc_air_longsword_01" id="0" dbid="164">
 		<PhysicsInfo>hawk</PhysicsInfo>
 		<ObjectClass>Squad</ObjectClass>
@@ -323,6 +385,9 @@
 		<Flag>IsSticky</Flag>
 		<Flag>ExplodeOnTimer</Flag>
 		<ImpactDecal sizeX="1" sizeZ="1" timeFullyOpaque="5" fadeOutTime="10" orientation="random">decals\bullet_scorch01</ImpactDecal>
+	</Object>
+	<Object name="cov_inf_bruteArmor_01" id="0" dbid="4010">
+		<Visual>covenant\infantry\brute_01\armor\brutebruteshot_armor_01.vis</Visual>
 	</Object>
 	<Object name="cov_inf_bruteNeedlerArmor_01" id="0" dbid="4010">
 		<Visual>covenant\infantry\brute_01\armor\bruteneedler_armor_01.vis</Visual>

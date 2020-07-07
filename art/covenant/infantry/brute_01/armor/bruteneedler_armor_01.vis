@@ -933,7 +933,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\brute_01\bruteStalkerHelm_01</file>
+				<file>covenant\infantry\bruteassets_01\bruteMinorHelm_01</file>
 			</asset>
 		</component>
 	</model>
@@ -943,7 +943,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\brute_01\bruteCaptainShoulder_01</file>
+				<file>covenant\infantry\bruteassets_01\bruteShoulder_01</file>
 			</asset>
 		</component>
 	</model>
@@ -953,7 +953,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\brute_01\bruteCaptainShoulder_02</file>
+				<file>covenant\infantry\bruteassets_01\bruteShoulder_02</file>
 			</asset>
 		</component>
 	</model>

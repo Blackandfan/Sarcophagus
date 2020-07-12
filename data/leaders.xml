@@ -18,9 +18,34 @@
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_longsword_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_longsword_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_longsword_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">test_ugx_importing</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_for_testing</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">for_air_bishop_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">for_air_autoturret_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_03</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">test_rocket_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_flameMarine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_Inf_flameMarine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_InfectedodstSingle_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>

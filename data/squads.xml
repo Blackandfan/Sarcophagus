@@ -4011,30 +4011,6 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="fld_inf_infectedJackalSingle_01" formationType="Flock" dbid="3942">
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>24636</DisplayNameID>
-		<RolloverTextID>24637</RolloverTextID>
-		<HPBar offset="0,5,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<LeashDistance>10</LeashDistance>
-		<LeashDeadzone>0</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>0</AggroDistance>
-		<Units>
-			<Unit count="1" role="normal">fld_inf_infectedJackal_01</Unit>
-		</Units>
-		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
-		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
-		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
-		<Flag>KBAware</Flag>
-		<Flag>Flood</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-		</Selection>
-	</Squad>
 	<Squad name="fld_inf_flameMarineSingle_01" formationType="Flock" dbid="3943">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>

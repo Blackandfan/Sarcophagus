@@ -6,7 +6,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>covenant\infantry\brute_01\bruteCaptain_blue_01</file>
+				<file>covenant\infantry\brute_01\brute_01</file>
 				<damagefile>template\defaultInfantry</damagefile>
 			</asset>
 			<attach type="ModelRef" name="Helmet" tobone="Bip01 Head" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />

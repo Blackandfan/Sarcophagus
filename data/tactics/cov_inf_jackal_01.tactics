@@ -199,10 +199,6 @@
 			<Action>CarbineRifleAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>SniperRifleAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Resource_Supplies</TargetType>
 			<Action>GatherSupplies</Action>

@@ -18,6 +18,206 @@
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 	</Squad>
+	<Squad name="creep_rebel_aggro_infantry_01" formationType="Flock" dbid="3625">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>24342</DisplayNameID>
+		<RolloverTextID>24343</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>3000</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,8,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">creep_rebel_infantry_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_rebelGrunt_01" formationType="Flock" dbid="3298">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>24044</DisplayNameID>
+		<RolloverTextID>24045</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>4604</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="6" role="normal">creep_inf_grunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_RebelNeedlerGrunt_01" formationType="Flock" dbid="3299">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>24046</DisplayNameID>
+		<RolloverTextID>24047</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>4604</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="6" role="normal">creep_inf_needlerGrunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_RebelMixedGrunts_01" formationType="Flock" dbid="3300">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>24046</DisplayNameID>
+		<RolloverTextID>24047</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>4604</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="3" role="normal">creep_inf_needlerGrunt_01</Unit>
+			<Unit count="3" role="normal">creep_inf_grunt_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_jackal_01" formationType="Flock" dbid="3301">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23993</DisplayNameID>
+		<RolloverTextID>23994</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<BuildPoints>9</BuildPoints>
+		<Cost resourcetype="Supplies">240</Cost>
+		<SubSelectSort>4601</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">creep_inf_jackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_sniperJackal_01" formationType="Flock" dbid="3302">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23993</DisplayNameID>
+		<RolloverTextID>23994</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<BuildPoints>9</BuildPoints>
+		<Cost resourcetype="Supplies">240</Cost>
+		<SubSelectSort>4602</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="2" role="normal">creep_inf_sniperJackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="creep_inf_aggro_needlerJackal_01" formationType="Flock" dbid="3303">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23993</DisplayNameID>
+		<RolloverTextID>23994</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<BuildPoints>9</BuildPoints>
+		<Cost resourcetype="Supplies">240</Cost>
+		<SubSelectSort>4603</SubSelectSort>
+		<LeashDistance>9999</LeashDistance>
+		<LeashDeadzone>9999</LeashDeadzone>
+		<LeashRecallDelay>99999</LeashRecallDelay>
+		<AggroDistance>999</AggroDistance>
+		<HPBar offset="0,9,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">creep_inf_needlerJackal_01</Unit>
+		</Units>
+		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
+		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>
+		<Sound Type="StopExist">stop_ani_cov_grunts_exist</Sound>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Rebel</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="cov_inf_bruteNeedler_01" formationType="Flock" dbid="911">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>

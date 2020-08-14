@@ -44,8 +44,15 @@
 		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_InfectedodstSingle_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">test_covpod_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -160,7 +167,7 @@
 		<Pop Type="Temple" Max="1">1</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 	</Leader>
-	<Leader Name="Prophet of Mercy" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="7" StatsID="6" DefaultPlayerSlotFlags="0x20">
+	<Leader Name="Flood" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="7" StatsID="6" DefaultPlayerSlotFlags="0x20">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderProphet</Tech>
 		<NameID>7014</NameID>

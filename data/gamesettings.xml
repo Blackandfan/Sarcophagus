@@ -35,14 +35,14 @@
 	<Setting Name="Player2Difficulty">0.400000006</Setting>
 	<Setting Name="Player3Name">Player 3</Setting>
 	<Setting Name="Player3Type">2</Setting>
-	<Setting Name="Player3Team">2</Setting>
+	<Setting Name="Player3Team">3</Setting>
 	<Setting Name="Player3Civ">1</Setting>
 	<Setting Name="Player3Leader">-1</Setting>
 	<Setting Name="Player3Ready">false</Setting>
 	<Setting Name="Player3Difficulty">0.400000006</Setting>
 	<Setting Name="Player4Name">Player 4</Setting>
 	<Setting Name="Player4Type">2</Setting>
-	<Setting Name="Player4Team">2</Setting>
+	<Setting Name="Player4Team">4</Setting>
 	<Setting Name="Player4Civ">1</Setting>
 	<Setting Name="Player4Leader">-1</Setting>
 	<Setting Name="Player4Ready">false</Setting>

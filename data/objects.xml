@@ -7672,8 +7672,8 @@
 		<PickOffset>0.699999988</PickOffset>
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="1" AutoClose="true">cov_bldg_supplyDepot_01</Command>
-		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_temple_01</Command>
-		<Command Type="BuildOther" Position="3" AutoClose="true">cov_bldg_shieldGen_01</Command>
+		<Command Type="BuildOther" Position="2" AutoClose="true">cov_bldg_methanestorage_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">cov_bldg_temple_01</Command>
 		<Command Type="BuildOther" Position="5" AutoClose="true">cov_bldg_lightfactory_01</Command>
 		<Command Type="BuildOther" Position="6" AutoClose="true">cov_bldg_heavyfactory_01</Command>
 		<Command Type="BuildOther" Position="7" AutoClose="true">cov_bldg_barracks_01</Command>
@@ -7709,6 +7709,7 @@
 		<PickOffset>0.699999988</PickOffset>
 		<GathererLimit>1</GathererLimit>
 		<Command Type="BuildOther" Position="0" AutoClose="true">cov_bldg_turret_01</Command>
+		<Command Type="BuildOther" Position="3" AutoClose="true">cov_bldg_shieldGen_01</Command>
 		<ObjectType>TurretSocket</ObjectType>
 		<ObjectType>_TurretSocket</ObjectType>
 		<ObjectType>CanCryo</ObjectType>
@@ -7933,74 +7934,6 @@
 		<Flag>ScaleBuildAnimRate</Flag>
 		<Flag>ForceAnimRate</Flag>
 		<Flag>TriggersBattleMusicWhenAttacked</Flag>
-	</Object>
-	<Object name="cov_bldg_shieldGen_01" id="0" dbid="179">
-		<ObjectClass>Building</ObjectClass>
-		<Visual>covenant\building\shieldGen_01\shieldGen_01.vis</Visual>
-		<PhysicsInfo>cov_bldg_shieldgen_01</PhysicsInfo>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\bldg_monument1</PortraitIcon>
-		<MinimapIcon size="5">Building</MinimapIcon>
-		<DisplayNameID>10160</DisplayNameID>
-		<RolloverTextID>10161</RolloverTextID>
-		<RoleTextID>24274</RoleTextID>
-		<MovementType>Land</MovementType>
-		<Hitpoints>5000</Hitpoints>
-		<CombatValue>10</CombatValue>
-		<LOS>55</LOS>
-		<ShieldType>cov_bldg_shieldMed_01</ShieldType>
-		<BuildPoints>30</BuildPoints>
-		<Cost ResourceType="Supplies">200</Cost>
-		<Cost ResourceType="Power">1</Cost>
-		<Bounty>4</Bounty>
-		<VisualDisplayPriority>high</VisualDisplayPriority>
-		<Veterancy Level="1" XP="0" Damage="1.14999998" Velocity="1" Accuracy="1.60000002" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.870000005" />
-		<Veterancy Level="2" XP="0" Damage="1.25" Velocity="1" Accuracy="1.70000005" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.800000012" />
-		<Veterancy Level="3" XP="0" Damage="1.35000002" Velocity="1" Accuracy="1.79999995" WorkRate="1.20000005" WeaponRange="1" DamageTaken="0.74000001" />
-		<Veterancy Level="4" XP="0" Damage="2" Velocity="1" Accuracy="1.10000002" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<Veterancy Level="5" XP="0" Damage="2" Velocity="1" Accuracy="1.20000005" WorkRate="2" WeaponRange="1" DamageTaken="0.5" />
-		<ObstructionRadiusX>12</ObstructionRadiusX>
-		<ObstructionRadiusY>6</ObstructionRadiusY>
-		<ObstructionRadiusZ>16</ObstructionRadiusZ>
-		<TerrainHeightTolerance>10</TerrainHeightTolerance>
-		<PickRadius>10</PickRadius>
-		<PickOffset>2</PickOffset>
-		<PickPriority>Building</PickPriority>
-		<SelectType>Command</SelectType>
-		<SelectedRadiusX>8.10000038</SelectedRadiusX>
-		<SelectedRadiusZ>6.30000019</SelectedRadiusZ>
-		<Command Type="Kill" Position="4" />
-		<Tactics>cov_bldg_shieldGen_01.tactics</Tactics>
-		<Sound Type="Create">play_vog_building_shieldgenerator</Sound>
-		<Sound Type="Death">play_death_megaturret</Sound>
-		<Sound Type="StopExist">stop_cov_build_beam</Sound>
-		<Sound Type="PieceThrownOff">play_unsc_building_damage</Sound>
-		<DamageType direction="Full">Building</DamageType>
-		<ObjectType>Building</ObjectType>
-		<ObjectType>Military</ObjectType>
-		<ObjectType>_Building</ObjectType>
-		<ObjectType>Covenant</ObjectType>
-		<ObjectType>CyclopsRepairable</ObjectType>
-		<ObjectType>NonFlying</ObjectType>
-		<ObjectType>Resource</ObjectType>
-		<ObjectType>_LOSObstructable</ObjectType>
-		<ObjectType>CanCryo</ObjectType>
-		<SurfaceType>Metal</SurfaceType>
-		<Rate Rate="Power">5</Rate>
-		<Socket Player="Player">BuildingSocket</Socket>
-		<Flag>IgnoreSquadAI</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>KBCreatesBase</Flag>
-		<Flag>SelectedRect</Flag>
-		<Flag>Build</Flag>
-		<Flag>Doppled</Flag>
-		<Flag>Immoveable</Flag>
-		<Flag>UnlimitedResources</Flag>
-		<Flag>HasHPBar</Flag>
-		<Flag>ChildForDamageTakenScalar</Flag>
-		<Flag>ForceAnimRate</Flag>
-		<Flag>ScaleBuildAnimRate</Flag>
-		<Flag>ForceAnimRate</Flag>
-		<HPBar>COV_Bldg_Health</HPBar>
 	</Object>
 	<Object name="cov_bldg_turret_01" id="0" dbid="176">
 		<ObjectClass>Building</ObjectClass>
@@ -11645,7 +11578,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>5000</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -11709,7 +11643,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>7500</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -11773,7 +11708,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>10000</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -11837,7 +11773,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>5000</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -11901,7 +11838,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>7500</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -11965,7 +11903,8 @@
 		<MovementType>Land</MovementType>
 		<Hitpoints>10000</Hitpoints>
 		<CombatValue>20</CombatValue>
-		<LOS>85</LOS>
+		<Tactics>creep_rebel_base_01.tactics</Tactics>
+		<LOS>9999</LOS>
 		<BuildPoints>0</BuildPoints>
 		<Bounty>14</Bounty>
 		<ChildObjects>
@@ -12145,7 +12084,7 @@
 	<Object name="creep_rebel_sniper_01" id="0" dbid="3646">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>creep\insurrectionists\sniper_01\sniper_01.vis</Visual>
+		<Visual>Insurry\infantry\marine_01\marinesniper_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24344</DisplayNameID>
@@ -12224,7 +12163,7 @@
 	<Object name="creep_rebel_infantry_01" id="0" dbid="3647">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>creep\insurrectionists\infantry_01\infantry_01.vis</Visual>
+		<Visual>Insurry\infantry\marine_01\marine_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>24342</DisplayNameID>

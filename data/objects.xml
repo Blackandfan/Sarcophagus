@@ -5403,7 +5403,7 @@
 	<Object name="unsc_inf_marine_02" id="0" dbid="3081">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\marine_01\marine_01.vis</Visual>
+		<Visual>unsc\infantry\marine_01\marine_f_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>
@@ -5649,7 +5649,7 @@
 	<Object name="unsc_inf_odstMedic_01" id="0" dbid="3297">
 		<PhysicsReplacementInfo>dude</PhysicsReplacementInfo>
 		<ObjectClass>Squad</ObjectClass>
-		<Visual>unsc\infantry\odst_01\medic_01.vis</Visual>
+		<Visual>unsc\infantry\medic_01\medic_01.vis</Visual>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<DisplayNameID>10048</DisplayNameID>

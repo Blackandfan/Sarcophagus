@@ -208,9 +208,13 @@
 		<InfectionMapEntry base="unsc_inf_flameMarine_01" infected="fld_Inf_flameMarine_01" infectedSquad="fld_Inf_flameMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_01" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
 		<InfectionMapEntry base="unsc_inf_marine_02" infected="fld_inf_InfectedMarine_01" infectedSquad="fld_Inf_InfectedMarineSingle_01" />
-		<InfectionMapEntry base="unsc_inf_medic_01" infected="flood_inf_infectedmedic_01" infectedSquad="flood_inf_infectedmedic_01" />
+		<InfectionMapEntry base="unsc_inf_medic_01" infected="fld_inf_InfectedMedic_01" infectedSquad="fld_inf_InfectedMedicSingle_01" />
 		<InfectionMapEntry base="unsc_inf_odst_01" infected="fld_inf_Infectedodst_01" infectedSquad="fld_inf_InfectedodstSingle_01" />
-		<InfectionMapEntry base="unsc_inf_odstMedic_01" infected="flood_inf_infectedodstMedic_01" infectedSquad="flood_inf_infectedodstMedic_01" />
+		<InfectionMapEntry base="unsc_inf_odstMedic_01" infected="fld_inf_InfectedMedic_01" infectedSquad="fld_inf_InfectedMedicSingle_01" />
+		<InfectionMapEntry base="unsc_inf_spartan_01" infected="fld_inf_infectedspartan_01" infectedSquad="fld_inf_infectedspartan_01" />
+		<InfectionMapEntry base="unsc_inf_spartan_02" infected="fld_inf_infectedspartan_02" infectedSquad="fld_inf_infectedspartan_02" />
+		<InfectionMapEntry base="unsc_inf_spartan_03" infected="fld_inf_infectedspartan_03" infectedSquad="fld_inf_infectedspartan_03" />
+		<InfectionMapEntry base="cpgn_inf_spartanRocket_01" infected="fld_inf_infectedspartan_04" infectedSquad="fld_inf_infectedspartan_04" />
 		<InfectionMapEntry base="cov_inf_eliteLeader_01" infected="fld_inf_InfectedElite_01" infectedSquad="fld_Inf_InfectedEliteSingle_01" />
 		<InfectionMapEntry base="cov_inf_bruteLeader_01" infected="fld_inf_InfectedBrute_01" infectedSquad="fld_Inf_InfectedBruteSingle_01" />
 		<InfectionMapEntry base="cov_inf_eliteCommando_01" infected="fld_inf_InfectedElite_01" infectedSquad="fld_Inf_InfectedEliteSingle_01" />
@@ -222,6 +226,9 @@
 		<InfectionMapEntry base="cov_inf_needlergrunt_01" infected="fld_inf_InfectedGrunt_01" infectedSquad="fld_Inf_InfectedGruntSingle_01" />
 		<InfectionMapEntry base="cov_inf_needlergrunt_02" infected="fld_inf_InfectedGrunt_01" infectedSquad="fld_Inf_InfectedGruntSingle_01" />
 		<InfectionMapEntry base="cov_inf_gruntDeacon_01" infected="fld_inf_InfectedGrunt_01" infectedSquad="fld_Inf_InfectedGruntSingle_01" />
+		<InfectionMapEntry base="cpgn_inf_needlerElite_01" infected="fld_inf_InfectedElite_01" infectedSquad="fld_Inf_InfectedEliteSingle_01" />
+		<InfectionMapEntry base="creep_rebel_infantry_01" infected="fld_inf_Infectedinfantry_01" infectedSquad="fld_inf_InfectedinfantrySingle_01" />
+		<InfectionMapEntry base="creep_rebel_sniper_01" infected="fld_inf_Infectedsniper_01" infectedSquad="fld_inf_InfectedsniperSingle_01" />
 	</InfectionMap>
 	<MaxSquadPathsPerFrame>100</MaxSquadPathsPerFrame>
 	<MaxPlatoonPathsPerFrame>100</MaxPlatoonPathsPerFrame>

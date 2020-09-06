@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="unsc_inf_spartanmech_01" dbid="917">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3056</DisplayNameID>
+		<RolloverTextID>3057</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<RoleTextID>501</RoleTextID>
+		<BuildPoints>32</BuildPoints>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">1</Cost>
+		<SubSelectSort>6500</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<Birth anim0="Train" trainerAnim="Research" spawnpoint="bone_spawnPoint04" endPoint="bone_spawnPoint04">Trained</Birth>
+		<HPBar offset="0,12,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_spartanmech_01</Unit>
+		</Units>
+		<TurnRadius min="0.100000001" max="4" />
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="game_CTF_monitor_01" dbid="4358" update="true">
 		<DisplayNameID>26052</DisplayNameID>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
@@ -605,95 +635,178 @@
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="fld_inf_InfectedodstSingle_01" formationType="Flock" dbid="924">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+	<Squad name="fld_inf_InfectedMedicSingle_01" dbid="3940">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3012</DisplayNameID>
-		<RolloverTextID>3013</RolloverTextID>
-		<StatsNameID>25679</StatsNameID>
-		<RoleTextID>500</RoleTextID>
-		<Cost resourcetype="Supplies">100</Cost>
-		<BuildPoints>8</BuildPoints>
-		<SubSelectSort>3000</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>35</AggroDistance>
-		<HPBar offset="0,9,0">UNSC_Health</HPBar>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11005</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fld_inf_InfectedMedic_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fld_inf_InfectedodstSingle_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11006</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
 		<Units>
 			<Unit count="1" role="normal">fld_inf_Infectedodst_01</Unit>
 		</Units>
-		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
-		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
-		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="flood_inf_infectedmedic_01" formationType="Flock" dbid="924">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+	<Squad name="fld_inf_InfectedsniperSingle_01" dbid="3940">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3012</DisplayNameID>
-		<RolloverTextID>3013</RolloverTextID>
-		<StatsNameID>25679</StatsNameID>
-		<RoleTextID>500</RoleTextID>
-		<Cost resourcetype="Supplies">100</Cost>
-		<BuildPoints>8</BuildPoints>
-		<SubSelectSort>3000</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>35</AggroDistance>
-		<HPBar offset="0,9,0">UNSC_Health</HPBar>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11007</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_infectedmedic_01</Unit>
+			<Unit count="1" role="normal">fld_inf_Infectedsniper_01</Unit>
 		</Units>
-		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
-		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
-		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>
 	</Squad>
-	<Squad name="flood_inf_infectedodstMedic_01" formationType="Flock" dbid="924">
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+	<Squad name="fld_inf_InfectedinfantrySingle_01" dbid="3940">
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3012</DisplayNameID>
-		<RolloverTextID>3013</RolloverTextID>
-		<StatsNameID>25679</StatsNameID>
-		<RoleTextID>500</RoleTextID>
-		<Cost resourcetype="Supplies">100</Cost>
-		<BuildPoints>8</BuildPoints>
-		<SubSelectSort>3000</SubSelectSort>
-		<LeashDistance>55</LeashDistance>
-		<LeashDeadzone>25</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>35</AggroDistance>
-		<HPBar offset="0,9,0">UNSC_Health</HPBar>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11008</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_infectedodstMedic_01</Unit>
+			<Unit count="1" role="normal">fld_inf_Infectedinfantry_01</Unit>
 		</Units>
-		<Sound Type="StartMove">play_ani_marine_walk_01</Sound>
-		<Sound Type="StopMove">stop_ani_marine_walk_01</Sound>
-		<Sound Type="StopExist">stop_ani_marine_exist</Sound>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fld_inf_infectedspartan_01" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11009</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fld_inf_infectedspartan_01</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fld_inf_infectedspartan_02" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11010</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fld_inf_infectedspartan_02</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fld_inf_infectedspartan_03" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11011</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fld_inf_infectedspartan_03</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+		</Selection>
+	</Squad>
+	<Squad name="fld_inf_infectedspartan_04" dbid="3940">
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>22678</DisplayNameID>
+		<RolloverTextID>22679</RolloverTextID>
+		<HPBar offset="0, 5, 0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<LeashDistance>45</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<SubSelectSort>11012</SubSelectSort>
+		<AggroDistance>30</AggroDistance>
+		<Units>
+			<Unit count="1" role="normal">fld_inf_infectedspartan_04</Unit>
+		</Units>
+		<Flag>KBAware</Flag>
+		<Flag>Flood</Flag>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 		</Selection>

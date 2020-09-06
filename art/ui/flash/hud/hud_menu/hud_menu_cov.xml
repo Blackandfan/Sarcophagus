@@ -219,6 +219,15 @@
 	<KeyFrame>queued</KeyFrame>
 	<KeyFrame>pc_off</KeyFrame>
 	<KeyFrame>pc_on</KeyFrame>
+	<Icon type="uniticon" name="marinemech1" texture="art\ddx\unsc_inf_spartanmech_01" owner="unsc_inf_spartanmech_01">-1</Icon>
+	<Icon type="uniticon" name="marine1" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_marine_01" owner="fld_inf_InfectedMedicSingle_01">-1</Icon>
+	<Icon type="uniticon" name="odst" texture="art\ddx\flood_inf_infectedodst_01" owner="fld_inf_InfectedodstSingle_01">-1</Icon>
+	<Icon type="uniticon" name="creep8" texture="art\ui\flash\shared\textures\creeps\creep_rebel_infantry_01" owner="fld_inf_InfectedinfantrySingle_01">-1</Icon>
+	<Icon type="uniticon" name="sniper" texture="art\ui\flash\shared\textures\creeps\creep_rebel_sniper_01" owner="fld_inf_InfectedsniperSingle_01">-1</Icon>
+	<Icon type="uniticon" name="spartan" texture="art\ui\flash\shared\textures\unsc\icons\unit\unsc_inf_spartan_01" owner="fld_inf_infectedspartan_01">-1</Icon>
+	<Icon type="uniticon" name="SpartanMG" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanMg_01" owner="fld_inf_infectedspartan_02">-1</Icon>
+	<Icon type="uniticon" name="SpartanSniper" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanSniper_01" owner="fld_inf_infectedspartan_03">-1</Icon>
+	<Icon type="uniticon" name="SpartanRocket" texture="art\ui\flash\shared\textures\unsc\icons\unit\cpgn_inf_spartanRocket_01" owner="fld_inf_infectedspartan_04">-1</Icon>
 	<Icon type="unitselection" name="gruntkami" owner="cov_inf_kamikazeGrunt_01">10</Icon>
 	<Icon type="unitselection" name="grunt" owner="cov_inf_gruntHorde_01">15</Icon>
 	<Icon type="unitselection" name="grunt" owner="cov_inf_gruntHorde_02">15</Icon>

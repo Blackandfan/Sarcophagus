@@ -32,18 +32,18 @@
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_spartanmech_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_flameMarine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_Inf_flameMarine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odstMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odstMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odst_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedodstMedic_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">test_covpod_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>

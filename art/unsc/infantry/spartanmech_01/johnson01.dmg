@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<intactToFracturedThreshold>0.899999976</intactToFracturedThreshold>
+	<fracturedToDestructibleThreshold>0.899999976</fracturedToDestructibleThreshold>
+	<percentagebased>
+		<event />
+		<event>
+			<action weaponFilter="All" type="swappart">piece_01,piece_01_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_01</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_chest</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_05,piece_05_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="3" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_05</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_shoulder_left</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_03,piece_03_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_03</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_chest</action>
+			<action weaponFilter="All" delay="0.200000003" type="swappart">piece_02,piece_02_damage</action>
+			<action weaponFilter="All" delay="0.200000003" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_02</action>
+			<action weaponFilter="All" delay="0.200000003" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_chest</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_08,piece_08_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="3" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_08</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_shoulder_right</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_04,piece_04_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_04</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_chest</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_07,piece_07_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_07</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_knee_right</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event />
+		<event>
+			<action weaponFilter="All" type="swappart">piece_09,piece_09_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_09</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_shoulder_left</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action weaponFilter="All" type="swappart">piece_10,piece_10_damage</action>
+			<action weaponFilter="All" type="throwpart" forcemultiplier="2" impacteffect="vfx\BuildingVFX\DestructionBuildingVFX\DebriImpactGround" impactsound="PLAY_SFX_3D_IMP_MetalHollowLarge">piece_10</action>
+			<action weaponFilter="All" type="attachparticle" effect="vfx\UnitVFX\SharedUnitVFX\SharedUnitDestructionVFX\UNSCVehicleExplosionTiny">bone_vfx_back_left</action>
+			<action type="playsound">PLAY_SFX_3D_VFX_SmallVehicleExplosion</action>
+		</event>
+		<event>
+			<action delay="4" weaponFilter="All" type="camerashake" fadein="0.150000006" duration="0.150000006" fadeout="0.5" translationstrength="1" translationfrequency="1.25" yawpitchstrength="1" rollstrength="0.75" rotationfrequency="1.5" />
+			<action weaponFilter="All" delay="6" type="explosivedeath" debrisLifetime="6" explosionPower="0" explosionRadius="0" offset="0,0,0" enableDirectionality="false" />
+		</event>
+	</percentagebased>
+	<impactpointbased>
+		<impactpoint name="bone_impact_front" bone="bone_impact_front">
+			<event>
+				<action type="togglepart" hpThreshold="0.850000024" show="true">decal_front_middle_01_damage</action>
+			</event>
+			<event>
+				<action type="togglepart" hpThreshold="0.75" show="true">decal_front_left_01_damage</action>
+			</event>
+			<event>
+				<action type="togglepart" hpThreshold="0.550000012" show="true">decal_front_right_01_damage</action>
+			</event>
+		</impactpoint>
+		<impactpoint name="bone_impact_rear" bone="bone_impact_rear">
+			<event>
+				<action type="togglepart" hpThreshold="0.75" show="true">decal_back_middle_01_damage</action>
+			</event>
+			<event>
+				<action type="togglepart" hpThreshold="0.649999976" show="true">decal_back_left_01_damage</action>
+			</event>
+			<event>
+				<action type="togglepart" hpThreshold="0.449999988" show="true">decal_back_right_01_damage</action>
+			</event>
+		</impactpoint>
+	</impactpointbased>
+</damagetemplate>

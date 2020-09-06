@@ -12,22 +12,12 @@
 	</GameMode>
 	<GameMode>
 		<Name>Skirmish</Name>
-		<WorldScript>SkirmishWorld.triggerscript</WorldScript>
-		<PlayerScript>FFAPlayer.triggerscript</PlayerScript>
-		<Tech />
-		<DisplayNameID>8000</DisplayNameID>
-		<DescriptionID>26027</DescriptionID>
-		<LongDescriptionID>26027</LongDescriptionID>
-		<NPC />
-	</GameMode>
-	<GameMode>
-		<Name>Skirmish</Name>
 		<WorldScript>floodcontrol.triggerscript</WorldScript>
 		<PlayerScript>floodcontrolPlayer.triggerscript</PlayerScript>
 		<Tech />
-		<DisplayNameID>8000</DisplayNameID>
-		<DescriptionID>26027</DescriptionID>
-		<LongDescriptionID>26027</LongDescriptionID>
+		<DisplayNameID>24264</DisplayNameID>
+		<DescriptionID>30008</DescriptionID>
+		<LongDescriptionID>30008</LongDescriptionID>
 		<NPC />
 	</GameMode>
 	<GameMode>

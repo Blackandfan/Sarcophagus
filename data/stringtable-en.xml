@@ -4847,5 +4847,22 @@
 		<String _locID="26751" category="UI" scenario="GameSetup" subtitle="false">CUSTOM</String>
 		<String _locID="26752" category="UI" scenario="GameSetup" subtitle="false">Automatic</String>
 		<String _locID="26753" category="UI" scenario="GameSetup" subtitle="false">Difficulty</String>
+		<String _locID="30000" category="Skirmish" subtitle="false" Update="true">MEMORIAL BASIN (FFA)</String>
+		<String _locID="30001" category="Skirmish" subtitle="false" Update="true">The high ground in the middle offers good cover for infantry, while the generally open terrain transforms organized battle plans into bloodbaths.</String>
+		<String _locID="30002" category="Skirmish" subtitle="false">BEASLEY'S PLATEAU (FFA)</String>
+		<String _locID="30003" category="Skirmish" subtitle="false">Bases in this region tend to have two ways in and out. Controlling the center may lead to a larger-than-normal population limit.</String>
+		<String _locID="30004" category="Skirmish" scenario="Map Name" subtitle="false">EXILE (FFA)</String>
+		<String _locID="30005" category="Skirmish" scenario="Map Description" subtitle="false">Impassable terrain creates a nested trio of rings that defines this large battlefield. More base sites are found on the outermost ring, but controlling the center is tactically superior.</String>
+		<String _locID="30006" category="Skirmish" subtitle="false">FROZEN VALLEY (FFA)</String>
+		<String _locID="30007" category="Skirmish" subtitle="false">A wide open map, this cold wasteland features two bonus Reactors and a Forerunner Spire of Healing.</String>
+		<String _locID="30008" category="Skirmish" subtitle="false">Cut gamemode, appears to be a flood firefight mode.</String>
+		<String _locID="30009" category="Squads" subtitle="false">HRUNTING MARK I [J] ADS</String>
+		<String _locID="30010" category="Squads" subtitle="false">The HRUNTING Mark I Prototype Armor Defense System, known simultaneously as HRUNTING, was an experimental bipedal powered exoskeleton/armored fighting vehicle developed by the Materials Group at Weapons Research Facility T12A on Algolis. It was intended for use by the UNSC Marine Corps.</String>
+		<String _locID="30011" category="Techs" subtitle="false">HIGH TORQUE JOINTS</String>
+		<String _locID="30012" category="Techs" subtitle="false">Massively improved mobility systems increases movement speed of each Cyclops.</String>
+		<String _locID="30013" category="Techs" subtitle="false">Armor piercing cannons</String>
+		<String _locID="30014" category="Techs" subtitle="false">Improves vehicle damage</String>
+		<String _locID="30015" category="Techs" subtitle="false">CHAIN AMPLIFIER</String>
+		<String _locID="30016" category="Techs" subtitle="false">The MARK I can chain to hit multiple targets.</String>
 	</Language>
 </StringTable>

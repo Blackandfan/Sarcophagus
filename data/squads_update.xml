@@ -1,5 +1,35 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="unsc_air_policepelican_01" dbid="1145">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23675</DisplayNameID>
+		<RolloverTextID>23676</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<BuildPoints>19</BuildPoints>
+		<Cost resourcetype="Supplies">250</Cost>
+		<Cost resourcetype="Power">2</Cost>
+		<SubSelectSort>7120</SubSelectSort>
+		<LeashDistance>450</LeashDistance>
+		<LeashDeadzone>150</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>2500</AggroDistance>
+		<Birth trainerAnim="TrainAir" spawnpoint="bone_spawnPoint03">Trained</Birth>
+		<HPBar offset="0,7,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_policepelican_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+		</Selection>
+	</Squad>
 	<Squad name="unsc_inf_spartanmech_01" dbid="917">
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_wraith</PortraitIcon>
 		<MinimapIcon size="8">Square</MinimapIcon>

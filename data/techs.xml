@@ -6744,6 +6744,33 @@
 		</Effects>
 		<Flag>HiddenFromStats</Flag>
 	</Tech>
+	<Tech name="unsc_LeaderCampaign" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_flameMarine_01" ToType="campaign_inf_flameMarine_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_cyclops_01" ToType="campaign_inf_cyclops_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_01" ToType="campaign_inf_marine_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_marine_02" ToType="campaign_inf_marine_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_medic_01" ToType="campaign_inf_medic_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_odst_01" ToType="campaign_inf_odst_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_inf_odstMedic_01" ToType="campaign_inf_odstMedic_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_cobra_01" ToType="campaign_veh_cobra_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_warthog_01" ToType="campaign_veh_warthog_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_gremlin_01" ToType="campaign_veh_gremlin_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_elephant_01" ToType="campaign_veh_elephant_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_elephant_02" ToType="campaign_veh_elephant_02" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_scorpion_01" ToType="campaign_veh_scorpion_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_grizzly_01" ToType="campaign_veh_grizzly_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_veh_wolverine_01" ToType="campaign_veh_wolverine_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_air_hawk_01" ToType="campaign_air_hawk_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_air_hornet_01" ToType="campaign_air_hornet_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_air_vulture_01" ToType="campaign_air_vulture_01" />
+			<Effect type="TransformProtoUnit" FromType="unsc_air_pelican_01" ToType="campaign_air_pelican_01" />
+		</Effects>
+	</Tech>
 	<TechDataSubType>Enable</TechDataSubType>
 	<TechDataSubType>Hitpoints</TechDataSubType>
 	<TechDataSubType>Shieldpoints</TechDataSubType>

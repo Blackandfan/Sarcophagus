@@ -23,16 +23,16 @@
 		<StartingSquad FlyIn="false" Offset="60,0,-20">for_air_bishop_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">for_air_autoturret_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">test_smallarms_03</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">test_sniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-50">unsc_air_policepelican_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-50">campaign_air_pelican_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-50">flood_air_pelican_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">test_rocket_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">cov_inf_jackal_02</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_spartanmech_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_spartanmech_0111111111</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_flameMarine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_Inf_flameMarine_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">unsc_inf_odstMedic_01</StartingSquad>
@@ -44,15 +44,29 @@
 		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedMedic_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedodst_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_inf_infectedMedic_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">test_covpod_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">Innie_veh_warthog_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="80,0,-40">creep_rebel_infantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">ban_inf_brute_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_air_hawk_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_air_hornet_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_veh_ghost_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">flood_veh_wolverine_01</StartingSquad>
+
+
+
+
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedsniper_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_Infectedinfantry_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedJackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedJackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_air_swarm_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedCarrier_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectionForm_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_rhinodillo_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedBrute_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedGrunt_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_Inf_flameMarine_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_infectedCarrier_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_InfectedElite_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">fld_inf_InfectedMarine_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -76,6 +90,25 @@
 		<Resource Type="Power">0</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_flameMarine_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_cyclops_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_marine_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_marine_02</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_medic_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_odst_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_inf_odstMedic_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_cobra_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_warthog_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_gremlin_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_elephant_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_elephant_02</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_scorpion_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_grizzly_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_veh_wolverine_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_air_hawk_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_air_hornet_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_air_vulture_01</StartingSquad>
+<StartingSquad FlyIn="false" Offset="80,0,-40">campaign_air_pelican_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -107,13 +140,28 @@
 		<Pop Type="Unit" Max="99">30</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
-	<Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
+	<Leader Name="Rebel" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="1" StatsID="3" DefaultPlayerSlotFlags="0x4">
 		<Civ>UNSC</Civ>
-		<NameID>23718</NameID>
-		<DescriptionID>23719</DescriptionID>
+		<Tech>unsc_LeaderAnders</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
 		<FlashCivID>0</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://ddx\leader_rebel.ddx</FlashPortrait>
+		<UIControlBackground>img://ddx\leaderpict_rebel.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="6" StatsID="4" DefaultPlayerSlotFlags="0x8">
 		<Civ>Covenant</Civ>
@@ -200,16 +248,32 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
 	</Leader>
-	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
-		<Civ />
-		<NameID>23722</NameID>
-		<DescriptionID>23723</DescriptionID>
+	<Leader Name="Flood" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="5" StatsID="3" DefaultPlayerSlotFlags="0x4">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAnders</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
 		<FlashCivID>2</FlashCivID>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://ddx\leader_flood.ddx</FlashPortrait>
+		<UIControlBackground>img://ddx\leaderpict_flood.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="flood_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
 	</Leader>
 	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
 		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderCampaign</Tech>
 		<NameID>7020</NameID>
 		<DescriptionID>7021</DescriptionID>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>

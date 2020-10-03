@@ -9,37 +9,28 @@
 				<file>unsc\infantry\spartanmech_01\spartanmech_01</file>
 				<damagefile>template\defaultInfantry</damagefile>
 			</asset>
-			<attach type="ModelRef" name="railgun" tobone="bone_vfx_back_left" frombone="GrannyRootBone_johnson01" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="raildddgun" tobone="bone_vfx_back_left" frombone="GrannyRootBone_johnson01" syncanims="false" disregardorient="false" />
 		</component>
 		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle">
 			<asset type="Anim">
-				<file>unsc\infantry\spartanmech_01\spartanmech_base_idle_01</file>
-				<weight>1</weight>
-			</asset>
-			<asset type="Anim">
-				<file>unsc\infantry\spartanmech_01\spartanmech_base_idle_02</file>
-				<weight>1</weight>
-			</asset>
-			<asset type="Anim">
 				<file>unsc\infantry\spartanmech_01\spartanmech_base_idle_03</file>
-				<weight>1</weight>
+				<weight>50</weight>
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\spartanmech_01\spartanmech_base_idle_04</file>
-				<weight>1</weight>
+				<weight>70</weight>
 			</asset>
-
 			<asset type="Anim">
 				<file>unsc\infantry\spartanmech_01\spartanmech_combat_idle_01</file>
-				<weight>1</weight>
+				<weight>40</weight>
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\spartanmech_01\spartanmech_combat_idle_02</file>
-				<weight>1</weight>
+				<weight>70</weight>
 			</asset>
 			<asset type="Anim">
 				<file>unsc\infantry\spartanmech_01\spartanmech_combat_idle_03</file>
-				<weight>1</weight>
+				<weight>40</weight>
 			</asset>
 		</anim>
 		<anim type="Idlewalk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">

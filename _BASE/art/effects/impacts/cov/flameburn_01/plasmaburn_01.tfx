@@ -1,0 +1,8 @@
+<TerrainEffect>
+
+   <default>
+      <vis>effects\impacts\cov\flameburn_01\plasmaburnFX_01</vis>
+
+   </default>
+
+</TerrainEffect>

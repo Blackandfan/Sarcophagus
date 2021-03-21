@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Leaders>
+	<Leader Name="Gaia" Icon="">
+		<Civ>Gaia</Civ>
+	</Leader>
+	<Leader Name="Cutter" Icon="ui\game\icon\unsc\leader\Captain Cutter" LeaderPickerOrder="2" StatsID="1" DefaultPlayerSlotFlags="0x81">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderCutter</Tech>
+		<NameID>7000</NameID>
+		<DescriptionID>7001</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_wraith_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_veh_scarab_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_veh_knight_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">for_veh_knight_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">ban_veh_wraith_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_gruntDeacon_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_gruntDeacon_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">heretic_inf_jackal_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_tankform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_rangedform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_stalkerform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_tankform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_rangedform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_stalkerform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_tankform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_rangedform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_stalkerform_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_elitecommando_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">1</Pop>
+	</Leader>
+	<Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" LeaderPickerOrder="3" StatsID="2" DefaultPlayerSlotFlags="0x2">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderForge</Tech>
+		<NameID>7002</NameID>
+		<DescriptionID>7003</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>14thdivision</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\forge.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_forge.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cpgn_inf_eliteranger_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_eliteLeader_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_eliteLeader_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">1</Pop>
+	</Leader>
+	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" LeaderPickerOrder="4" StatsID="3" DefaultPlayerSlotFlags="0x4">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAnders</Tech>
+		<NameID>7004</NameID>
+		<DescriptionID>7005</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hawk_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hawk_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hawk_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hawk_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_hawk_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+		<Pop Type="Spartan" Max="3">1</Pop>
+	</Leader>
+	<Leader Name="Random UNSC" LeaderPickerOrder="1" Random="true">
+		<Civ>UNSC</Civ>
+		<NameID>23718</NameID>
+		<DescriptionID>23719</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+	</Leader>
+	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Arbiter" Alpha="0" LeaderPickerOrder="6" StatsID="4" DefaultPlayerSlotFlags="0x8">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderArbiter</Tech>
+		<NameID>7010</NameID>
+		<DescriptionID>7011</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>arbiter</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Brute Chieftain" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="7" StatsID="5" DefaultPlayerSlotFlags="0x10">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderBrute</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_bruteChopper_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Prophet of Mercy" Icon="ui\game\icon\covenant\leader\Elite General" Alpha="0" LeaderPickerOrder="7" StatsID="6" DefaultPlayerSlotFlags="0x20">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderProphet</Tech>
+		<NameID>7014</NameID>
+		<DescriptionID>7015</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>prophet</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Random Covenant" LeaderPickerOrder="8" Random="true">
+		<Civ>Covenant</Civ>
+		<NameID>23720</NameID>
+		<DescriptionID>23721</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
+	</Leader>
+	<Leader Name="Random All" LeaderPickerOrder="5" Random="true">
+		<Civ />
+		<NameID>23722</NameID>
+		<DescriptionID>23723</DescriptionID>
+		<FlashCivID>2</FlashCivID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\random.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\leader_pict_random.ddx</UIControlBackground>
+	</Leader>
+	<Leader Name="Gravy" LeaderPickerOrder="12" StatsID="7">
+		<Civ>Covenant</Civ>
+		<Tech>flood_LeaderGravemind</Tech>
+		<NameID>99502</NameID>
+		<DescriptionID>99503</DescriptionID>
+		<FlashImg>oni</FlashImg>
+		<FlashCivID>3</FlashCivID>
+		<FlashPortrait>img://art\modded\leaderpict_flood.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_floodbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">45</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Boss" Max="1">1</Pop>
+		<Pop Type="Hero" Max="3">3</Pop>
+		<Pop Type="Hero2" Max="10">2</Pop>
+		<Pop Type="Building55" Max="10">10</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="BigTurret" Max="1">1</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+	</Leader>
+	<Leader Name="Banished" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="10" StatsID="5" DefaultPlayerSlotFlags="0x20">
+		<Civ>Banished</Civ>
+		<Tech>banished_LeaderBrute</Tech>
+		<NameID>30056</NameID>
+		<DescriptionID>30057</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\modded\leaderpict_banished.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_banishedbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-24">cov_veh_brutechopper_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">30</Pop>
+		<Pop Type="Leader" Max="3">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="BigTurret" Max="1">1</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+		<Pop Type="Shield" Max="10">1</Pop>
+		<Pop Type="Building55" Max="10">4</Pop>
+		<Pop Type="HeroUNSC" Max="3">3</Pop>
+	</Leader>
+	<Leader Name="BanishedAI" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" LeaderPickerOrder="14" StatsID="5">
+		<Civ>Covenant</Civ>
+		<Tech>banished_LeaderBrute</Tech>
+		<NameID>30060</NameID>
+		<DescriptionID>30061</DescriptionID>
+		<FlashCivID>1</FlashCivID>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\modded\leaderpict_banished.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_banishedbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-24">cov_veh_brutechopper_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">30</Pop>
+		<Pop Type="Leader" Max="3">1</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="BigTurret" Max="1">1</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+		<Pop Type="Shield" Max="10">1</Pop>
+		<Pop Type="Building55" Max="10">4</Pop>
+		<Pop Type="HeroUNSC" Max="3">3</Pop>
+	</Leader>
+	<Leader Name="Major Vanilla" Icon="ui\game\icon\unsc\leader\Lt. Green" Test="true" Alpha="0">
+		<Civ>UNSC</Civ>
+		<NameID>7020</NameID>
+		<DescriptionID>7021</DescriptionID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomUnsc.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_unsc.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">30</Pop>
+	</Leader>
+	<Leader Name="Prophet of Pudding" Icon="ui\game\icon\covenant\leader\Prophet of truth" Test="true" Alpha="0">
+		<Civ>Covenant</Civ>
+		<NameID>7022</NameID>
+		<DescriptionID>7023</DescriptionID>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\randomCov.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_random_cov.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="99">40</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+	</Leader>
+	<Leader Name="Flood">
+		<Civ>Covenant</Civ>
+		<Tech>flood_LeaderGravemind</Tech>
+		<NameID>99502</NameID>
+		<DescriptionID>99503</DescriptionID>
+		<FlashImg>oni</FlashImg>
+		<FlashCivID>3</FlashCivID>
+		<FlashPortrait>img://art\modded\leaderpict_flood.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_floodbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">45</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Boss" Max="1">1</Pop>
+		<Pop Type="Hero" Max="3">3</Pop>
+		<Pop Type="Hero2" Max="10">2</Pop>
+		<Pop Type="Building55" Max="10">10</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="BigTurret" Max="1">1</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+	</Leader>
+	<Leader Name="Creeps">
+		<Civ>Covenant</Civ>
+		<Tech>flood_LeaderGravemind</Tech>
+		<NameID>99502</NameID>
+		<DescriptionID>99503</DescriptionID>
+		<FlashImg>oni</FlashImg>
+		<FlashCivID>3</FlashCivID>
+		<FlashPortrait>img://art\modded\leaderpict_flood.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_floodbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">800</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">0</Resource>
+		<StartingUnit Offset="0, 0, 0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60, 0, -20">unsc_veh_warthog_01</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">45</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
+		<Pop Type="Boss" Max="1">1</Pop>
+		<Pop Type="Hero" Max="3">3</Pop>
+		<Pop Type="Hero2" Max="10">2</Pop>
+		<Pop Type="Building55" Max="10">10</Pop>
+		<Pop Type="Temple" Max="1">1</Pop>
+		<Pop Type="BigTurret" Max="1">1</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+	</Leader>
+	<Leader Name="FloodMap" Test="true" Alpha="0">
+		<Civ>Covenant</Civ>
+		<Tech>flood_LeaderGravemind</Tech>
+		<NameID>99502</NameID>
+		<DescriptionID>99503</DescriptionID>
+		<FlashImg>oni</FlashImg>
+		<FlashCivID>3</FlashCivID>
+		<FlashPortrait>img://art\modded\leaderpict_flood.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_floodbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">9999999</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">99999</Resource>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="3">999</Pop>
+		<Pop Type="Boss" Max="1">999</Pop>
+		<Pop Type="Hero" Max="3">999</Pop>
+		<Pop Type="Hero2" Max="10">992</Pop>
+		<Pop Type="Building55" Max="10">190</Pop>
+		<Pop Type="Temple" Max="1">19</Pop>
+		<Pop Type="BigTurret" Max="1">19</Pop>
+		<Pop Type="Engi" Max="100">100</Pop>
+	</Leader>
+	<Leader Name="RebelsGAIA" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0">
+		<Civ>UNSC</Civ>
+		<Tech>Rebel_leadertech</Tech>
+		<NameID>80004</NameID>
+		<DescriptionID>80005</DescriptionID>
+		<FlashCivID>0</FlashCivID>
+		<FlashImg>oni</FlashImg>
+		<FlashPortrait>img://art\modded\leaderpict_rebel.ddx</FlashPortrait>
+		<UIControlBackground>img://art\modded\leaderpict_rebelbanner.ddx</UIControlBackground>
+		<Resource Type="Supplies">99800</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="CampaignFoo">0</Resource>
+		<Resource Type="Power">90</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="creep_rebel_arcadiaBase_map" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">creep_inf_marine_02</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="25,0,30">creep_inf_marine_03</StartingSquad>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="250">100</Pop>
+		<Pop Type="Rhino" Max="25">25</Pop>
+		<Pop Type="Spartan" Max="7">1</Pop>
+		<Pop Type="Forge" Max="1">0</Pop>
+		<Pop Type="Jerome" Max="1">0</Pop>
+		<Pop Type="Douglas" Max="1">0</Pop>
+		<Pop Type="Alice" Max="1">0</Pop>
+		<Pop Type="HeroUNSC" Max="3">3</Pop>
+		<Pop Type="HeroUNSC1" Max="3">1</Pop>
+	</Leader>
+</Leaders>

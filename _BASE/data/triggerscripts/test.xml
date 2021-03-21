@@ -1,0 +1,81 @@
+<Trigger ID="16" Name="PopulatePlayerListForFloodNPC" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="414" Y="68" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="33" Type="GetNPCPlayersByName" DBID="943" Version="1" CommentOut="false">
+					<Input Name="NPCPlayerName" SigID="1" Optional="false">112</Input>
+					<Input Name="NPCPlayerState" SigID="2" Optional="true">113</Input>
+					<Output Name="NPCPlayerList" SigID="3" Optional="false">121</Output>
+				</Effect>
+				<Effect ID="368" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">1774</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+
+		<Trigger ID="219" Name="PopulatePlayerListForCreeps" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="415" Y="450" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="366" Type="GetNPCPlayersByName" DBID="943" Version="1" CommentOut="false">
+					<Input Name="NPCPlayerName" SigID="1" Optional="false">1756</Input>
+					<Input Name="NPCPlayerState" SigID="2" Optional="true">1757</Input>
+					<Output Name="NPCPlayerList" SigID="3" Optional="false">1780</Output>
+				</Effect>
+				<Effect ID="550" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">2335</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="17" Name="GetFloodPlrNumberAndNumberOfPlrs" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="842" Y="84" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="6" Type="CanGetOnePlayer" DBID="434" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerList" SigID="1" Optional="false">121</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">119</Input>
+						<Output Name="FoundPlayer" SigID="3" Optional="false">120</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="132" Type="GetPlayers" DBID="173" Version="2" CommentOut="false">
+					<Input Name="IncludeGaia" SigID="2" Optional="false">622</Input>
+					<Input Name="PlayerState" SigID="4" Optional="false">623</Input>
+					<Output Name="PlayerList" SigID="1" Optional="false">624</Output>
+				</Effect>
+				<Effect ID="321" Type="PlayerListGetSize" DBID="970" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">624</Input>
+					<Output Name="Size" SigID="2" Optional="false">1478</Output>
+				</Effect>
+				<Effect ID="551" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">2336</Input>
+				</Effect>
+				<Effect ID="768" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">3031</Input>
+				</Effect>
+				<Effect ID="1687" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">4885</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+
+		<Trigger ID="382" Name="Initialize" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="80" Y="150" GroupID="-1" TemplateID="327">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="867" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">3337</Input>
+				</Effect>
+				<Effect ID="868" Type="IteratorPlayerList" DBID="120" Version="1" CommentOut="false">
+					<Input Name="PlayerList" SigID="1" Optional="false">624</Input>
+					<Output Name="InitializedIterator" SigID="2" Optional="false">3338</Output>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>

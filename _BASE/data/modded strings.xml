@@ -1,0 +1,334 @@
+
+		<String _locID="1" category="Code" subtitle="false">ARCADIA (1v1)*</String>
+		<String _locID="2" category="Code" subtitle="false">This densely built-up destroyed region of Arcadia features several cover protecting key areas.</String>
+		<String _locID="3" category="Code" subtitle="false">FROZEN VALLEY (3v1)*</String>
+		<String _locID="4" category="Code" subtitle="false">A wide open map, this cold wasteland features two bonus Reactors and a Forerunner Spire of Healing.</String>
+		<String _locID="5" category="Code" subtitle="false">GATE (1v1)*</String>
+		<String _locID="6" category="Code" subtitle="false">Literally the only campaign map that works for multiplayer.</String>
+		<String _locID="7" category="Code" subtitle="false">GATE (2v2)*</String>
+		<String _locID="8" category="Code" subtitle="false">Literally the only campaign map that works for multiplayer.</String>
+		<String _locID="9" category="Code" subtitle="false">RELIC (1v1)*</String>
+		<String _locID="10" category="Code" subtitle="false">Uncover what the Covenant were after on Arcadia.</String>
+		<String _locID="11" category="Code" subtitle="false">SHIELD WORLD (1v1)*</String>
+		<String _locID="12" category="Code" subtitle="false">Literally the only campaign map that works for multiplayer.</String>
+		<String _locID="13" category="Code" subtitle="false">TERMINAL MORAINE (2v1)*</String>
+		<String _locID="14" category="Code" subtitle="false">Sections of the map are only accessible by timed light bridges. Watch for the bridges to start blinking - any units on the bridges when the bridges turn off are doomed.</String>
+		<String _locID="15" category="Code" subtitle="false">ANOTHER CHASMS (1v1)*</String>
+		<String _locID="16" category="Code" subtitle="false">CONTROL TOWER</String>
+		<String _locID="17" category="Code" subtitle="false">BARRACKS</String>
+		<String _locID="18" category="Code" subtitle="false">SUPPLY STORAGE</String>
+		<String _locID="19" category="Code" subtitle="false">Train police units and pelicans here, this base can survive on its own as it also produces ressources.</String>
+		<String _locID="20" category="Code" subtitle="false">SANGHEILI MAJOR</String>
+		<String _locID="21" category="Code" subtitle="false">Sangheili using better weaponry.</String>
+		<String _locID="22" category="Code" subtitle="false">SANGHEILI GENERAL</String>
+		<String _locID="23" category="Code" subtitle="false">Sangheili generals are rarely seen leading Covenant forces into battle.</String>
+		<String _locID="24" category="Code" subtitle="false">SHIELD AMPLIFIER</String>
+		<String _locID="25" category="Code" subtitle="false">Generates a stronger bubble shield to protect the base. Multiple Shield Generators can be built in a base to compound the shield's strengt even further.</String>
+		<String _locID="26" subtitle="false">A huge thanks to bbc6rgf 57 ytty5 y xy w5gt and Dr.Lightmare for supporting me in my first year of making Halo Wars mods. Go play their mods on moddb.</String>
+		<String _locID="27" subtitle="false">Check out KogaGmente III(known as 3N1Static Gaming on yt), Nuchey, The Vengeful'Vadam, MasterofRoflness and EdPeter(for trying) for showcasing my mods and supporting me during development.</String>
+		<String _locID="28" subtitle="false">Give Blizardbear a thank you for writing some of the awesome strings used for upgrades and leaders descriptions.</String>
+		<String _locID="29" subtitle="false">A big thank you for all the modding support to Darling, TheRealSlimLady, kornman00 and Syndiwolf :).</String>
+		<String _locID="30" subtitle="false">Thank you all for the support and the testing! Con, skyforcemk, Special Specs, Fliguy1, Casey890, StarLight and TobyMac01.</String>
+		<String _locID="31" subtitle="false">Check out my A Overhaul Mod for Halo Wars 2</String>
+		<String _locID="32" category="Code" subtitle="false">INFECTED ELITE DROP</String>
+		<String _locID="33" category="Code" subtitle="false">Drops a infected elite.</String>
+		<String _locID="34" category="Code" subtitle="false">BUILDER DROP</String>
+		<String _locID="35" category="Code" subtitle="false">Drops a infection form that allows you to build buildings anywhere on the map.</String>
+		<String _locID="36" category="Code" subtitle="false">SPORECLOUD DROP</String>
+		<String _locID="37" category="Code" subtitle="false">Drops a sporecould.</String>
+		<String _locID="38" category="Code" subtitle="false">CYCLOPS DROP</String>
+		<String _locID="39" category="Code" subtitle="false">Drop a cyclops drop.</String>
+		<String _locID="40" category="Code" subtitle="false">SCORCH ABILITY</String>
+		<String _locID="41" category="Code" subtitle="false">Allows the plasma to overheat which causes extra damage over time.</String>
+		<String _locID="42" category="Code" subtitle="false">DEFENSE GAUNTLET</String>
+		<String _locID="43" category="Code" subtitle="false">Adds extra shielding to deflect incoming projectiles.</String>
+		<String _locID="44" category="Code" subtitle="false">JUMP PACK ABILITY</String>
+		<String _locID="45" category="Code" subtitle="false">Enables the Jump Pack Ability, allowing Sangheili to quickly cross the battlefield.</String>
+		<String _locID="46" category="Code" subtitle="false">BEAM RIFLE</String>
+		<String _locID="47" category="Code" subtitle="false">Sangheili are now equipped with particle beam rifles.</String>
+		<String _locID="48" category="Code" subtitle="false">COMRADES</String>
+		<String _locID="49" category="Code" subtitle="false">Sangheili squads have one additional Sangheili.</String>
+		<String _locID="50" category="Code" subtitle="false">JACKAL UPGRADE III</String>
+		<String _locID="51" category="Code" subtitle="false">Improves health and damage output.</String>
+		<String _locID="52" category="Code" subtitle="false">NEEDLER</String>
+		<String _locID="53" category="Code" subtitle="false">Jackal squads are now equipped with needlers.</String>
+		<String _locID="54" category="Code" subtitle="false">PEONS</String>
+		<String _locID="55" category="Code" subtitle="false">Jackal squads have one additional Jackal.</String>
+		<String _locID="56" category="Code" subtitle="false">ELITE UPGRADE III</String>
+		<String _locID="57" category="Code" subtitle="false">Improves health and damage output.</String>
+		<String _locID="58" category="Code" subtitle="false">NEEDLER</String>
+		<String _locID="59" category="Code" subtitle="false">Sangheili squads are now equipped with needlers.</String>
+		<String _locID="60" category="Code" subtitle="false">Infected Unit Upgrade I</String>
+		<String _locID="61" category="Code" subtitle="false">Improves the infected units, does not require the enemy to have better tech</String>
+		<String _locID="62" category="Code" subtitle="false">Infected Unit Upgrade II</String>
+		<String _locID="63" category="Code" subtitle="false">Improves the infected units, does not require the enemy to have better tech</String>
+		<String _locID="64" category="Code" subtitle="false">Adds +10 to the population cap of your army.</String>
+		<String _locID="65" category="Code" subtitle="false">Adds +5 to the population cap of your army.</String>
+		<String _locID="66" category="Code" subtitle="false">LOCUST TANK UPGRADE I</String>
+		<String _locID="67" category="Code" subtitle="false">PLACEHOLDER DESCRIPTION</String>
+		<String _locID="68" category="Code" subtitle="false">LOCUST TANK UPGRADE II</String>
+		<String _locID="69" category="Code" subtitle="false">PLACEHOLDER DESCRIPTION</String>
+		<String _locID="70" category="Code" subtitle="false">LOCUST TANK UPGRADE III</String>
+		<String _locID="71" category="Code" subtitle="false">PLACEHOLDER DESCRIPTION</String>
+		<String _locID="72" category="Code" subtitle="false">SANGHEILI</String>
+		<String _locID="73" category="Code" subtitle="false">The Sangheili are a saurian sapient species known for their warrior culture and combat skill.</String>
+		<String _locID="74" category="Code" subtitle="false">MODIFIED GRIZZLY</String>
+		<String _locID="75" category="Code" subtitle="false">PLACEHOLDER DESCRIPTION</String>
+		<String _locID="76" category="Code" subtitle="false">VETERAN INSURRECTIONIST</String>
+		<String _locID="77" category="Code" subtitle="false">Former UNSC CMA defectors that joined the Insurrection.</String>
+		<String _locID="78" category="Code" subtitle="false">INSURRECTIONIST SNIPER</String>
+		<String _locID="79" category="Code" subtitle="false">Old UNSC Marines.</String>
+		<String _locID="80" category="Code" subtitle="false">INFANTRY</String>
+		<String _locID="81" category="Code" subtitle="false">Most Insurrectionists originated as disgruntled Outer Colony citizens who perceived the Unified Earth Government as a draconian oppressor and did not believe in advancing their cause through diplomacy.</String>
+		<String _locID="82" category="Code" subtitle="false">INFECTED ODST</String>
+		<String _locID="83" category="Code" subtitle="false">I ODST DES</String>
+		<String _locID="84" category="Code" subtitle="false">PELICAN UPGRADE I</String>
+		<String _locID="85" category="Code" subtitle="false">Adds a weapon.</String>
+		<String _locID="86" category="Code" subtitle="false">PELICAN UPGRADE I</String>
+		<String _locID="87" category="Code" subtitle="false">Increased damage and health.</String>
+		<String _locID="88" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="89" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="90" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="91" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="92" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="93" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="94" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="95" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="96" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="97" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="98" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="99" category="Code" subtitle="false">CONFIRM</String>
+		<String _locID="99999" category="Squads" subtitle="false">Attachable Marine</String>
+		<String _locID="99998" category="Squads" subtitle="false">This medic can be attached to other units and comes with a rocket launcher, he can repair any ground unit too.</String>
+		<String _locID="99997" category="Squads" subtitle="false">Jackal Squad</String>
+		<String _locID="99996" category="Squads" subtitle="false">This is a Jackal squad with 1 Jackals and 5 Grunts.</String>
+		<String _locID="99991" category="Squads" subtitle="false">Jackal Squad</String>
+		<String _locID="99990" category="Squads" subtitle="false">A Jackal Squad lead by a Brute.</String>
+		<String _locID="99983" category="Squads" subtitle="false">SANGHEILI</String>
+		<String _locID="99982" category="Squads" subtitle="false">A small squad of Sangheili, that turned away from the extremism of the Covenant in the hopes of freeing the Sangheili.</String>
+		<String _locID="99977" category="Objects" subtitle="false">New Things</String>
+		<String _locID="99976" category="Objects" subtitle="false">This building has new things.</String>
+		<String _locID="99975" category="Objects" subtitle="false">Flood Minibase</String>
+		<String _locID="99974" category="Objects" subtitle="false">A small weak Flood minibase that can keep itself alive.</String>
+		<String _locID="99973" category="techs" subtitle="false">NEEDLER UPGRADE</String>
+		<String _locID="99972" category="techs" subtitle="false">This upgrade gives the Elites Needlers as weapons.</String>
+		<String _locID="99971" category="techs" subtitle="false">Needler Grunt</String>
+		<String _locID="99970" category="techs" subtitle="false">This upgrade gives the Grunts needlers as weapon.</String>
+		<String _locID="99969" category="techs" subtitle="false">More Grunts</String>
+		<String _locID="99968" category="techs" subtitle="false">More Grunts.</String>
+		<String _locID="99967" category="techs" subtitle="false">Creation</String>
+		<String _locID="99966" category="techs" subtitle="false">The Flood cells have found another way to increase the creation of new units.</String>
+		<String _locID="99965" category="techs" subtitle="false">Biomass</String>
+		<String _locID="99964" category="techs" subtitle="false">The biomass of the Flood has been increased, causing them to become stronger.</String>
+		<String _locID="99963" category="techs" subtitle="false">Experience</String>
+		<String _locID="99962" category="techs" subtitle="false">Flood Combatforms do now share their battle experience from their hosts, which makes all units stronger.</String>
+		<String _locID="99961" category="techs" subtitle="false">Rush</String>
+		<String _locID="99960" category="techs" subtitle="false">Scarab deals more damage, has more health and is build faster.</String>
+		<String _locID="99959" category="techs" subtitle="false">Hunter</String>
+		<String _locID="99958" category="techs" subtitle="false">Another Hunter for the group.</String>
+		<String _locID="99955" category="Squads" subtitle="false">Infected Spartan</String>
+		<String _locID="99954" category="Squads" subtitle="false">A Spartan that has been infected, it can steal units.</String>
+		<String _locID="99937" category="techs" subtitle="false">Transfer</String>
+		<String _locID="99936" category="techs" subtitle="false">Transfer between buildings.</String>
+		<String _locID="99890" category="techs" subtitle="false">Transfer</String>
+		<String _locID="99889" category="techs" subtitle="false">Transfer between buildings.</String>
+		<String _locID="99888" category="techs" subtitle="false">Transfer</String>
+		<String _locID="99887" category="techs" subtitle="false">Transfer between buildings.</String>
+		<String _locID="99500" category="Leaders" subtitle="false">Placeremover</String>
+		<String _locID="99501" category="Leaders" subtitle="false">Make this place free to play unbalanced matches.</String>
+		<String _locID="99502" category="Leaders" subtitle="false">Feral Flood</String>
+		<String _locID="99503" category="Leaders" subtitle="false">The Flood have escaped the shieldworld and are now infecting many lifeforms. The first of many Graveminds shall be spawned.</String>
+		<String _locID="99504" category="Leaders" subtitle="false">Sesa 'Refumee</String>
+		<String _locID="99505" category="Leaders" subtitle="false">Sesa 'Refumee was the leader of the Heretics, who had taken control of the Gas Mine on Threshold and a small base on Basis, the gas giant's moon which Installation 04 rests between. </String>
+		<String _locID="89504" category="Leaders" subtitle="false">Zhar</String>
+		<String _locID="89505" category="Leaders" subtitle="false">One of the only Kig-Yar to achieve Zealot status, Zhar must now prove himself again to be worthy of redemption.</String>
+		<String _locID="83052" category="Squads" subtitle="false">KIG-YAR WARLORD</String>
+		<String _locID="83053" category="Squads" subtitle="false">Leader of the Combined Pirate Jacakal forces, the Kig-Yar Warlord is equipped with an overcharged Particle Beam Rifle aswell as a strong shield.</String>
+		<String _locID="82052" category="techs" subtitle="false">T'VAOAN MARKSMAN</String>
+		<String _locID="82053" category="techs" subtitle="false">Grants access to the more cunning accurate and dead eyed T'vaoan Marksman that specialize in assassination.</String>
+		<String _locID="82051" category="Squads" subtitle="false">T'VAOAN MARKSMAN</String>
+		<String _locID="82050" category="Squads" subtitle="false">The more cunning accurate and dead eyed T'vaoan Marksman among the Jackal Pirates, that specialize in assassination.</String>
+		<String _locID="80004" category="Leaders" subtitle="false">Insurrectionist</String>
+		<String _locID="80005" category="Leaders" subtitle="false">Earth is in the past. And the past is dead.</String>
+		<String _locID="82999" category="Squads" subtitle="false">TRAINED SNIPER</String>
+		<String _locID="82998" category="Squads" subtitle="false">UNSC units with sniper rifles.</String>
+		<String _locID="82997" category="Squads" subtitle="false">Rocketmarine</String>
+		<String _locID="82996" category="Squads" subtitle="false">Marines with rockets.</String>
+		<String _locID="82995" category="Squads" subtitle="false">SPARTAN IV</String>
+		<String _locID="82994" category="Squads" subtitle="false">Shortsword</String>
+		<String _locID="82993" category="Squads" subtitle="false">Black</String>
+		<String _locID="82992" category="Squads" subtitle="false">A squad of op spartans</String>
+		<String _locID="82991" category="Squads" subtitle="false">Weaker spartans, which can only take over your own vehicles.</String>
+		<String _locID="79963" category="techs" subtitle="false">Squadincrease</String>
+		<String _locID="79962" category="techs" subtitle="false">Increases the squad by 1.</String>
+		<String _locID="79961" category="techs" subtitle="false">New Rockets</String>
+		<String _locID="79960" category="techs" subtitle="false">Increased damage by 150%.</String>
+		<String _locID="79959" category="techs" subtitle="false">Accuracy</String>
+		<String _locID="79958" category="techs" subtitle="false">The accuracy has been increased.</String>
+		<String _locID="79957" category="techs" subtitle="false">Rhino</String>
+		<String _locID="79956" category="techs" subtitle="false">Increases damage but decreases health.</String>
+		<String _locID="79955" category="techs" subtitle="false">Rocketlauncher</String>
+		<String _locID="79954" category="techs" subtitle="false">Gives the wolverine a rocket marine (+health/damage).</String>
+		<String _locID="79953" category="techs" subtitle="false">Upgraded Needlers</String>
+		<String _locID="79952" category="techs" subtitle="false">The Needlers are getting upgraded (+health/damage).</String>
+		<String _locID="79951" category="Squads" subtitle="false">Needler Wolverine</String>
+		<String _locID="79950" category="Squads" subtitle="false">Uses Needlers instead of rockets.</String>
+		<String _locID="79949" category="techs" subtitle="false">Trained Sniper</String>
+		<String _locID="79948" category="techs" subtitle="false">Health and damage are increased.</String>
+		<String _locID="79947" category="Squads" subtitle="false">Modified Scorpion</String>
+		<String _locID="79946" category="Squads" subtitle="false">Uses cov tech, has less health.</String>
+		<String _locID="79945" category="Squads" subtitle="false">Infected super Elite</String>
+		<String _locID="79944" category="techs" subtitle="false">Extra shields</String>
+		<String _locID="79943" category="techs" subtitle="false">The squad gets more grunts.</String>
+		<String _locID="79942" category="techs" subtitle="false">New Jackal</String>
+		<String _locID="79941" category="techs" subtitle="false">More Grunts and Jackals.</String>
+		<String _locID="79939" category="techs" subtitle="false">More health</String>
+		<String _locID="79938" category="techs" subtitle="false">All Jackal units get more health.</String>
+		<String _locID="79937" category="techs" subtitle="false">More Damage</String>
+		<String _locID="79936" category="techs" subtitle="false">All Jackal units deal more damage.</String>
+		<String _locID="79935" category="techs" subtitle="false">Ability</String>
+		<String _locID="79934" category="techs" subtitle="false">Couldn't get a good ability to work, so he gets a grenade that does a lot of dmg :P. (and if even that doesnt work, he gets more damage)</String>
+		<String _locID="79933" category="techs" subtitle="false">Boost</String>
+		<String _locID="79932" category="techs" subtitle="false">Spawns a pirate, each 2 min. (and if even that doesnt work, he gets more damage)</String>
+		<String _locID="73031" category="Squads" subtitle="false">Vulture with transport ability, is able to attack units but not as good as the real Vulture.</String>
+		<String _locID="73030" category="Squads" subtitle="false">PURE FORM</String>
+		<String _locID="73029" category="Squads" subtitle="false">A Flood boss that deals a lot of damage and has a lot of health.</String>
+		<String _locID="73028" category="Squads" subtitle="false">RANGER</String>
+		<String _locID="73027" category="Squads" subtitle="false">A Flood pure form that has a high range, but doesnt have much health(still more than combatforms).</String>
+		<String _locID="73026" category="Squads" subtitle="false">Elite</String>
+		<String _locID="73025" category="Squads" subtitle="false">A Elite squad which tests new guns.</String>
+		<String _locID="73002" category="Leaders" subtitle="false">ODST</String>
+		<String _locID="73003" category="Leaders" subtitle="false">Still work in progress.</String>
+		<String _locID="73024" category="Squads" subtitle="false">PLASMA RIFLE T'VAOAN</String>
+		<String _locID="73023" category="Squads" subtitle="false">Standard T'vaoan Infantry equiped with Plasma Rifles for extra damage output.</String>
+		<String _locID="73022" category="techs" subtitle="false">Medic</String>
+		<String _locID="73021" category="techs" subtitle="false">The squad receives a medic with a rocket launcher.</String>
+		<String _locID="73020" category="techs" subtitle="false">ODST</String>
+		<String _locID="73019" category="techs" subtitle="false">The Marines are replaced with ODST.</String>
+		<String _locID="73018" category="Squads" subtitle="false">BR MARINE</String>
+		<String _locID="73017" category="Squads" subtitle="false">Marines with BR.</String>
+		<String _locID="73016" category="Squads" subtitle="false">BR ODST</String>
+		<String _locID="73015" category="Squads" subtitle="false">ODST with BR.</String>
+		<String _locID="73014" category="Powers" subtitle="false">SCORPION DROP</String>
+		<String _locID="73013" category="Powers" subtitle="false">Drop scorpions.</String>
+		<String _locID="73012" category="Powers" subtitle="false">SPECIAL OPS DROP</String>
+		<String _locID="73011" category="Powers" subtitle="false">Drop special ops.</String>
+		<String _locID="73010" category="Powers" subtitle="false">SPORE DROP</String>
+		<String _locID="73009" category="Powers" subtitle="false">Drop a spore.</String>
+		<String _locID="73008" category="Powers" subtitle="false">RANGER DROP</String>
+		<String _locID="73007" category="Powers" subtitle="false">Drop ranger.</String>
+		<String _locID="73006" category="Squads" subtitle="false">SPECIAL OPS</String>
+		<String _locID="73005" category="Squads" subtitle="false">Mr. Grunt</String>g>
+		<String _locID="199977" category="Objects" subtitle="false">Colony</String>
+		<String _locID="199976" category="Objects" subtitle="false">A small colony of the Flood.</String>
+		<String _locID="199975" category="Objects" subtitle="false">Gravemind</String>
+		<String _locID="199974" category="Objects" subtitle="false">The gravemind has better access to units and is a better choice than a colony.</String>
+		<String _locID="199973" category="Objects" subtitle="false">Forerunner Base</String>
+		<String _locID="199972" category="Objects" subtitle="false">This base lets you make some Forerunner units.</String>
+		<String _locID="199971" category="Objects" subtitle="false">Rebel Base</String>
+		<String _locID="199970" category="Objects" subtitle="false">This base gives you access to the rebel human units.</String>
+		<String _locID="199969" category="techs" subtitle="false">Squad</String>
+		<String _locID="199968" category="techs" subtitle="false">Adds another heavy marine to the squad.</String>
+		<String _locID="199967" category="Squads" subtitle="false">Heavy Marine</String>
+		<String _locID="199966" category="Squads" subtitle="false">A marine with a MG (anti-inf replacement).</String>
+		<String _locID="199965" category="Squads" subtitle="false">Brute Wraith</String>
+		<String _locID="199964" category="Squads" subtitle="false">The brute version of the wraith.</String>
+		<String _locID="199963" category="techs" subtitle="false">Buff</String>
+		<String _locID="199962" category="techs" subtitle="false">This upgrade buffs the brute wraith.</String>
+		<String _locID="60500" category="Code" subtitle="false">Main Infantry</String>
+		<String _locID="60501" category="Code" subtitle="false">Main Vehicle</String>
+		<String _locID="60502" category="Code" subtitle="false">Main Air</String>
+		<String _locID="60503" category="Code" subtitle="false">Anti-Infantry</String>
+		<String _locID="60504" category="Code" subtitle="false">Anti-Vehicle</String>
+		<String _locID="60505" category="Code" subtitle="false">Anti-Air</String>
+		<String _locID="60506" category="Code" subtitle="false">Combat Support</String>
+		<String _locID="60507" category="Code" subtitle="false">Building Killer</String>
+		<String _locID="60508" category="Code" subtitle="false">Uber Unit</String>
+		<String _locID="60509" category="Code" subtitle="false">Anti-All</String>
+		<String _locID="60510" category="Code" subtitle="false">Tank</String>
+		<String _locID="60511" category="Code" subtitle="false">Troop Transport</String>
+		<String _locID="60512" category="Code" subtitle="false">Main Infection</String>
+		<String _locID="60513" category="Code" subtitle="false">Anti-Veh/Building</String>
+		<String _locID="60514" category="Code" subtitle="false">Building Claimer</String>
+		<String _locID="60515" category="Objects" subtitle="false">Tech</String>
+		<String _locID="60516" category="Objects" subtitle="false">This building gives access to stuff that couldn't find any other good spot.</String>
+		<String _locID="60517" category="Objects" subtitle="false">Upgrade</String>
+		<String _locID="60518" category="Powers" subtitle="false">More Drops</String>
+		<String _locID="60519" category="Powers" subtitle="false">Gives the Flood access to more drops.</String>
+		<String _locID="260519" category="techs" subtitle="false">Shield</String>
+		<String _locID="260518" category="techs" subtitle="false">This upgrade gives all Covenant units without a shield (or a upgrade for it) a shield.</String>
+		<String _locID="260517" category="techs" subtitle="false">Stronger Shield</String>
+		<String _locID="260516" category="techs" subtitle="false">This upgrade increases the strengh of the shields.</String>
+		<String _locID="260515" category="techs" subtitle="false">Ressource</String>
+		<String _locID="260514" category="techs" subtitle="false">This increases the ressource-income by 2.</String>
+		<String _locID="260511" category="Squads" subtitle="false">Locust Tank</String>
+		<String _locID="260510" category="Squads" subtitle="false">Locust with scorpion turret.</String>
+		<String _locID="260507" category="techs" subtitle="false">Advance Spartan Hijacking</String>
+		<String _locID="260506" category="techs" subtitle="false">The spartans learn to hijack scarab and vultures.</String>
+		<String _locID="260505" category="techs" subtitle="false">NEEDLER UPGRADE</String>
+		<String _locID="260504" category="techs" subtitle="false">Upgrades your T'vaoan to use Needlers rather than Plasma Pistols.</String>
+		<String _locID="260503" category="Squads" subtitle="false">Infected Suicide Grunt</String>
+		<String _locID="260502" category="Squads" subtitle="false">Yep, infected suicide grunt.</String>
+		<String _locID="260501" category="Squads" subtitle="false">A vehicle with a turret</String>
+		<String _locID="260500" category="Squads" subtitle="false">Its a vehicle with a turret(needs name).</String>
+		<String _locID="260499" category="techs" subtitle="false">Turretupgrade</String>
+		<String _locID="260498" category="techs" subtitle="false">Gives the "A vehicle with a turret) extra anti-veh turrets to deal more damage.</String>
+		<String _locID="260497" category="techs" subtitle="false">Ground Units Boost I</String>
+		<String _locID="260496" category="techs" subtitle="false">Increased overall strengh of infantry and vehicle units to 105%.</String>
+		<String _locID="260495" category="techs" subtitle="false">Air Units Boost I</String>
+		<String _locID="260494" category="techs" subtitle="false">Increased overall strengh of air units to 110%.</String>
+		<String _locID="260493" category="techs" subtitle="false">Ground Units Boost II</String>
+		<String _locID="260492" category="techs" subtitle="false">Increased overall strengh of infantry and vehicle units to 107%.</String>
+		<String _locID="260491" category="techs" subtitle="false">Air Units Boost II</String>
+		<String _locID="260490" category="techs" subtitle="false">Increased overall strengh of air units to 113%.</String>
+		<String _locID="260489" category="techs" subtitle="false">Ground Units Boost III</String>
+		<String _locID="260488" category="techs" subtitle="false">Increased overall strengh of infantry and vehicle units to 109%.</String>
+		<String _locID="260487" category="techs" subtitle="false">Air Units Boost III</String>
+		<String _locID="260486" category="techs" subtitle="false">Increased overall strengh of air units to 117%.</String>
+		<String _locID="260485" category="Squads" subtitle="false">Experienced Hunter</String>
+		<String _locID="260484" category="Squads" subtitle="false">Hunterboss description.</String>
+		<String _locID="260483" category="techs" subtitle="false">Base Upgrade</String>
+		<String _locID="260482" category="techs" subtitle="false">Upgrades the base.</String>
+		<String _locID="260481" category="Squads" subtitle="false">Police</String>
+		<String _locID="260480" category="Squads" subtitle="false">Builder Form</String>
+		<String _locID="260479" category="Squads" subtitle="false">Mobile Flood Generator</String>
+		<String _locID="260478" category="Squads" subtitle="false">Mobile Flood Generator</String>
+		<String _locID="260477" category="Squads" subtitle="false">Use special ability to build units. (Works like a elephant)</String>
+		<String _locID="260476" category="Squads" subtitle="false">Use special ability to make it transform to a defense building. (Works like a elephant)</String>
+		<String _locID="260475" category="Squads" subtitle="false">Mobile Shade Turret</String>
+		<String _locID="260474" category="techs" subtitle="false">Colony</String>
+		<String _locID="260473" category="techs" subtitle="false">Creates a colony</String>
+		<String _locID="260472" category="techs" subtitle="false">Stalkbase</String>
+		<String _locID="260471" category="techs" subtitle="false">Generates Ressources</String>
+		<String _locID="260470" category="techs" subtitle="false">Nest</String>
+		<String _locID="260469" category="techs" subtitle="false">Generates free units</String>
+		<String _locID="260468" category="techs" subtitle="false">arty</String>
+		<String _locID="260467" category="techs" subtitle="false">arty</String>
+		<String _locID="260466" category="Squads" subtitle="false">Infected Elite</String>
+		<String _locID="260465" category="Squads" subtitle="false">Infected Arbiter</String>
+		<String _locID="260464" category="Squads" subtitle="false">Infected Brute Chieftain</String>
+		<String _locID="260463" category="Squads" subtitle="false">Infected Prophet</String>
+		<String _locID="260462" category="Squads" subtitle="false">Infected Needler Elite</String>
+		<String _locID="260461" category="Power" subtitle="false">HONOR GUARD DROP</String>
+		<String _locID="260460" category="Power" subtitle="false">Drop a Honor Guard.</String>
+		<String _locID="260454" category="Squads" subtitle="false">CUTTER</String>
+		<String _locID="260453" category="Squads" subtitle="false">Captain James Gregory Cutter is a senior officer in the UNSC Navy, serving as an officer during the Insurrection and early into Human-Covenant war.</String>
+		<String _locID="260452" category="Objects" subtitle="false">POLICE STATION</String>
+		<String _locID="260451" category="Power" subtitle="false">Stolen Grizzly Spartan</String>
+		<String _locID="260450" category="Power" subtitle="false">Drops a Grizzly with a spartan in it</String>
+		<String _locID="260449" category="Squads" subtitle="false">STOLEN GRIZZLY</String>
+		<String _locID="260448" category="Squads" subtitle="false"></String>
+		<String _locID="260447" category="Squads" subtitle="false">Keiichi-047</String>
+		<String _locID="260446" category="Squads" subtitle="false"></String>
+		<String _locID="7000" category="Leaders" subtitle="false">Captain Cutter</String>
+		<String _locID="7001" category="Leaders" subtitle="false">Captain James Gregory Cutter is a senior officer in the UNSC Navy, serving as an officer during the Insurrection and early into Human-Covenant war.</String>
+		<String _locID="7002" category="Leaders" subtitle="false">Sergeant Forge</String>
+		<String _locID="7003" category="Leaders" subtitle="false">He is the guy you want in the foxhole next to yours...but you would never introduce him to your sister.</String>
+		<String _locID="7004" category="Leaders" subtitle="false">Professor Anders</String>
+		<String _locID="7005" category="Leaders" subtitle="false">Nothing ventured, nothing gained.</String>
+		<String _locID="7012" category="Leaders" subtitle="false">Thrallslayer</String>
+		<String _locID="7013" category="Leaders" subtitle="false">Thrallslayer. Thrallslayer is what they call me, if you withstand my onslaught you shall be beaten into submission. The heretics will be squished like the maggots they are.</String>
+		<String _locID="7014" category="Leaders" subtitle="false">Prophet of Regret</String>
+		<String _locID="7015" category="Leaders" subtitle="false">Every member of the Covenant shall walk the path. None will be left behind when our Great Journey begins. That is the Prophets' age-old promise, and it shall be fulfilled.</String>
+		<String _locID="26217" category="UI" subtitle="false">More Leaders Mod v0.134 (2019)</String>
+		<String _locID="26218" category="UI" subtitle="false">discord.gg/WwT5XuX</String>

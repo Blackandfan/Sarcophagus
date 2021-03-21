@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<playerColors>
+	<skirmish>
+		<color num="0" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="1" objects="145 163 85" corpse="58 65 20" selection="115 130 40" minimap="115 130 40" ui="115 130 40" />
+		<color num="2" objects="0 30 200" corpse="0 15 100" selection="0 30 200" minimap="0 30 200" ui="0 30 200" />
+		<color num="3" objects="255 215 50" corpse="128 108 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="4" objects="210 30 30" corpse="210 30 3" selection="210 30 30" minimap="255 36 36" ui="48 244 230" />
+		<color num="5" objects="250 145 20" corpse="55 45 13" selection="250 145 20" minimap="250 145 20" ui="250 145 20" />
+		<color num="6" objects="240 220 45" corpse="166 152 31" selection="171 157 32" minimap="255 234 48" ui="48 244 230" />
+		<color num="7" objects="165 95 245" corpse="83 48 123" selection="165 95 245" minimap="165 95 245" ui="165 95 245" />
+		<color num="8" objects="0 175 200" corpse="0 88 100" selection="0 175 200" minimap="0 175 200" ui="0 175 200" />
+		<color num="9" objects="215 190 175" corpse="105 95 88" selection="215 200 175" minimap="215 200 175" ui="215 200 175" />
+		<color num="10" objects="153 255 51" corpse="86 176 10" selection="153 255 51" minimap="153 255 51" ui="153 255 51" />
+		<color num="11" objects="240 83 114" corpse="128 20 95" selection="240 83 114" minimap="240 83 114" ui="240 83 114" />
+		<color num="12" objects="64 64 64" corpse="32 32 32" selection="64 64 64" minimap="64 64 64" ui="64 64 64" />
+		<color num="13" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="14" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="15" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<friendOrFoeSelf objects="66 127 255" corpse="0 40 105" selection="0 80 211" minimap="0 80 211" ui="0 80 211" />
+		<friendOrFoeAlly objects="229 197 18" corpse="115 99 9" selection="229 197 18" minimap="229 197 18" ui="229 197 18" />
+		<friendOrFoeNeutral objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<friendOrFoeEnemy objects="190 0 0" corpse="95 0 0" selection="190 0 0" minimap="190 0 0" ui="190 0 0" />`</skirmish>
+	<spc>
+		<color num="0" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="1" objects="145 163 85" corpse="58 65 20" selection="115 130 40" minimap="115 130 40" ui="115 130 40" />
+		<color num="2" objects="0 30 200" corpse="0 15 100" selection="0 30 200" minimap="0 30 200" ui="0 30 200" />
+		<color num="3" objects="255 215 50" corpse="128 108 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="4" objects="210 30 30" corpse="210 30 3" selection="210 30 30" minimap="255 36 36" ui="48 244 230" />
+		<color num="5" objects="250 145 20" corpse="55 45 13" selection="250 145 20" minimap="250 145 20" ui="250 145 20" />
+		<color num="6" objects="240 220 45" corpse="166 152 31" selection="171 157 32" minimap="255 234 48" ui="48 244 230" />
+		<color num="7" objects="165 95 245" corpse="83 48 123" selection="165 95 245" minimap="165 95 245" ui="165 95 245" />
+		<color num="8" objects="0 175 200" corpse="0 88 100" selection="0 175 200" minimap="0 175 200" ui="0 175 200" />
+		<color num="9" objects="215 190 175" corpse="105 95 88" selection="215 200 175" minimap="215 200 175" ui="215 200 175" />
+		<color num="10" objects="153 255 51" corpse="86 176 10" selection="153 255 51" minimap="153 255 51" ui="153 255 51" />
+		<color num="11" objects="240 83 114" corpse="128 20 95" selection="240 83 114" minimap="240 83 114" ui="240 83 114" />
+		<color num="12" objects="64 64 64" corpse="32 32 32" selection="64 64 64" minimap="64 64 64" ui="64 64 64" />
+		<color num="13" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="14" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="15" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<friendOrFoeSelf objects="66 127 255" corpse="0 40 105" selection="0 80 211" minimap="0 80 211" ui="0 80 211" />
+		<friendOrFoeAlly objects="229 197 18" corpse="115 99 9" selection="229 197 18" minimap="229 197 18" ui="229 197 18" />
+		<friendOrFoeNeutral objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<friendOrFoeEnemy objects="190 0 0" corpse="95 0 0" selection="190 0 0" minimap="190 0 0" ui="190 0 0" />`</spc>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="1" />
+		<player num="2" color="2" />
+		<player num="3" color="3" />
+		<player num="4" color="10" />
+		<player num="5" color="11" />
+		<player num="6" color="12" />
+		<player num="7" color="13" />
+		<player num="8" color="14" />UNSC</civ>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="7" />
+		<player num="2" color="8" />
+		<player num="3" color="9" />
+		<player num="4" color="11" />
+		<player num="5" color="12" />
+		<player num="6" color="13" />
+		<player num="7" color="14" />
+		<player num="8" color="15" />Covenant</civ>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="14" />
+		<player num="2" color="2" />
+		<player num="3" color="3" />
+		<player num="4" color="11" />
+		<player num="5" color="12" />
+		<player num="6" color="13" />
+		<player num="7" color="14" />
+		<player num="8" color="15" />Flood</civ>
+	<civ>
+		<player num="0" color="0" />
+		<player num="1" color="4" />
+		<player num="2" color="5" />
+		<player num="3" color="6" />
+		<player num="4" color="13" />
+		<player num="5" color="12" />
+		<player num="6" color="10" />
+		<player num="7" color="14" />
+		<player num="8" color="15" />Banished</civ>
+
+
+		<!--<color num="gaia" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<color num="unsc_green" objects="145 163 85" corpse="58 65 20" selection="115 130 40" minimap="115 130 40" ui="115 130 40" />
+		<color num="unsc_blue" objects="0 30 200" corpse="0 15 100" selection="0 30 200" minimap="0 30 200" ui="0 30 200" />
+		<color num="unsc_yellow" objects="255 215 50" corpse="128 108 25" selection="255 215 50" minimap="255 215 50" ui="255 215 50" />
+		<color num="ban_red" objects="185 160 125" corpse="93 80 63" selection="185 160 125" minimap="185 160 125" ui="185 160 125" />
+		<color num="ban_orange" objects="250 145 20" corpse="55 45 13" selection="250 145 20" minimap="250 145 20" ui="250 145 20" />
+		<color num="ban_yellow" objects="240 220 45" corpse="166 152 31" selection="171 157 32" minimap="255 234 48" ui="48 244 230" />
+		<color num="cov_purple" objects="165 95 245" corpse="83 48 123" selection="165 95 245" minimap="165 95 245" ui="165 95 245" />
+		<color num="cov_blue" objects="0 175 200" corpse="0 88 100" selection="0 175 200" minimap="0 175 200" ui="0 175 200" />
+		<color num="cov_black" objects="215 190 175" corpse="105 95 88" selection="215 200 175" minimap="215 200 175" ui="215 200 175" />
+		<color num="other_lime" objects="153 255 51" corpse="86 176 10" selection="153 255 51" minimap="153 255 51" ui="153 255 51" />
+		<color num="other_red" objects="240 83 114" corpse="128 20 95" selection="240 83 114" minimap="240 83 114" ui="240 83 114" />
+		<color num="other_gray" objects="64 64 64" corpse="32 32 32" selection="64 64 64" minimap="64 64 64" ui="64 64 64" />
+		<color num="other_blue" objects="60 90 160" corpse="60 90 160" selection="14 41 102" minimap="94 143 255" ui="48 244 230" />
+		<color num="flood" objects="255 0 255" corpse="255 0 255" selection="255 0 255" minimap="255 0 255" ui="255 0 255" />
+		<color num="creep" objects="175 175 175" corpse="88 88 88" selection="175 175 175" minimap="175 175 175" ui="175 175 175" />
+		<friendOrFoeSelf objects="66 127 255" corpse="0 40 105" selection="0 80 211" minimap="0 80 211" ui="0 80 211" />
+		<friendOrFoeAlly objects="229 197 18" corpse="115 99 9" selection="229 197 18" minimap="229 197 18" ui="229 197 18" />
+		<friendOrFoeNeutral objects="235 165 27" corpse="117 82 14" selection="235 165 27" minimap="235 165 27" ui="235 165 27" />
+		<friendOrFoeEnemy objects="190 0 0" corpse="95 0 0" selection="190 0 0" minimap="190 0 0" ui="190 0 0" />-->
+</playerColors>

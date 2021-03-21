@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Claws</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>400</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOERadius>6</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Weapon>
+		<Name>RazorClawsVehicle</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>940</DamagePerSecond>
+		<WeaponType>Melee</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>Torso</Hardpoint>
+		<TargetPriority type="Infantry">20</TargetPriority>
+		<TargetPriority type="groundVehicle">15</TargetPriority>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.5</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+	</Weapon>
+	<Weapon>
+		<Name>Ram</Name>
+		<DamagePerSecond>600</DamagePerSecond>
+		<WeaponType>WarthogRam</WeaponType>
+		<MaxRange>5</MaxRange>
+		<AOERadius>40</AOERadius>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
+		<ImpactRumble leftRumbleType="RandomNoise" leftStrength="0.300000012" rightRumbleType="RandomNoise" rightStrength="0.300000012" duration="0.25" />
+		<MaxDamagePerRam>10000</MaxDamagePerRam>
+		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<Daze TargetType="NonFlying" MovementModifier="0" SmartTargeting="true">1.0f</Daze>
+	</Weapon>
+	<Action>
+		<Name>ClawAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>MeleeAttack</Anim>
+		<Weapon>Claws</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>RazorClawVehicleAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>BashAttack</Anim>
+		<Weapon>RazorClawsVehicle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture02</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>RoarAction</Name>
+		<ActionType>Roar</ActionType>
+		<Anim>Roar</Anim>
+	</Action>
+	<Tactic>
+		<PersistentAction>RoarAction</PersistentAction>
+		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>RepairOther</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture02</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ClawAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<Action>RazorClawVehicleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

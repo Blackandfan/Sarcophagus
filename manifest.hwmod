@@ -1,0 +1,23 @@
+<HWMod>
+    <Title>Sarcophagus</Title>
+    <BannerArt StretchType="UniformToFill">_ART/banner.png</BannerArt>
+    <Icon>_ART/icon.ico</Icon>
+    <Description>
+	Sarcophagus is a mod that attemps to overhaul the existing leaders in a balanced way, including custom ai, campaign and map assets. New leaders such as the Banished and Forerunners are planned for updates.
+
+	What can you expect?
+	- Custom leaders like the Banished, Flood and Forerunner
+	- A overhauled campaign
+	- Improved textures
+	- And more
+
+	You can find other modded players in our discord server discord.gg/gbAWQJpSux
+	
+	INFO
+	This is fully compatible with the single player campaign and skirmish mode, as well as multiplayer. If you wanna play this online, the other guys must have it installed as well.
+    </Description>
+    <Content BaseFileDir="_BASE" OptionalFileDir="_OPTIONAL">
+    	<OptionalFileFolder>_OPTIONAL\_AITEST</OptionalFileFolder>
+   		<OptionalFileFolder>_OPTIONAL\_OGPlayercolor</OptionalFileFolder>
+   	</Content>
+</HWMod>
